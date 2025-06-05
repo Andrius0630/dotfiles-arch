@@ -1,0 +1,23 @@
+00:00:00.224520 VirtualBox GUI VM Selector Window 7.1.6 r167084 linux.amd64 (Jan 27 2025 07:52:25) release log
+00:00:00.224521 Log opened 2025-02-21T08:44:54.913032000Z
+00:00:00.224521 Build Type: release
+00:00:00.224522 OS Product: Linux
+00:00:00.224523 OS Release: 6.13.3-arch1-1
+00:00:00.224523 OS Version: #1 SMP PREEMPT_DYNAMIC Mon, 17 Feb 2025 17:42:11 +0000
+00:00:00.224543 DMI Product Name: OMEN Laptop 15-en0xxx
+00:00:00.224550 DMI Product Version: 
+00:00:00.224553 Firmware type: UEFI
+00:00:00.224625 Secure Boot: Disabled
+00:00:00.224651 Host RAM: 31450MB (30.7GB) total, 29211MB (28.5GB) available
+00:00:00.224653 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.224653 Process ID: 6829
+00:00:00.224653 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.224674 Qt version: 6.8.2
+00:00:00.225427 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.234235 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.687109 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.707755 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 12x54 x 976x1010
+00:00:00.723256 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1004x54 x 900x517
+00:00:05.072468 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:07.334225 GUI: UICommon: Handling aboutToQuit request..
+00:00:08.180674 GUI: UICommon: aboutToQuit request handled!

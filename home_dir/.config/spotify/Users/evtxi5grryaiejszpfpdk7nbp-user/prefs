@@ -1,0 +1,4 @@
+connect.dial_devices="[{\"address\":\"192.168.68.111\",\"app_state\":\"INSTALLABLE\",\"created_timestamp\":1748883144,\"device_id\":\"063b4268-5dd2-415c-8ff3-4f3c9ad6e7c6\",\"dial_location_url\":\"http://192.168.68.111:1948/\",\"display_name\":\"[LG] webOS TV SM8600PLA\",\"last_seen\":1748984404,\"manufacturer\":\"LG Electronics\",\"model_name\":\"55SM8600PLA\",\"product_cap\":\"\",\"public_ip\":\"79.133.228.60\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"60ab148d406e\",\"port\":9,\"retries\":480}}]"
+audio.play_bitrate_non_metered_migrated=true
+connect.mdns_devices="[]"
+app.player.volume=31710

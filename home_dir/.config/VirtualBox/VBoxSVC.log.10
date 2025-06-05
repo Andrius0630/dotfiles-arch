@@ -1,0 +1,198 @@
+00:00:00.000412 main     VirtualBox XPCOM Server 7.1.6 r167084 linux.amd64 (Jan 27 2025 07:52:25) release log
+00:00:00.000415 main     Log opened 2025-02-21T08:44:54.749169000Z
+00:00:00.000416 main     Build Type: release
+00:00:00.000418 main     OS Product: Linux
+00:00:00.000419 main     OS Release: 6.13.3-arch1-1
+00:00:00.000421 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon, 17 Feb 2025 17:42:11 +0000
+00:00:00.000448 main     DMI Product Name: OMEN Laptop 15-en0xxx
+00:00:00.000463 main     DMI Product Version: 
+00:00:00.000470 main     Firmware type: UEFI
+00:00:00.000566 main     Secure Boot: Disabled
+00:00:00.000621 main     Host RAM: 31450MB (30.7GB) total, 29213MB (28.5GB) available
+00:00:00.000624 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000625 main     Process ID: 6844
+00:00:00.000625 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.002530 main     IPC socket path: /tmp/.vbox-andrey-ipc/ipcd
+00:00:00.013167 DCon01   VirtualBox: object creation starts
+00:00:00.013236 DCon01   Home directory: '/home/andrey/.config/VirtualBox'
+00:00:00.013331 DCon01   Loading settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.021215 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.022461 DCon01   HostDnsMonitor: initializing
+00:00:00.022620 DCon01   NAT: resolv.conf: nameserver 5.20.0.10
+00:00:00.022627 DCon01   NAT: resolv.conf: nameserver 5.20.0.11
+00:00:00.022636 DCon01   HostDnsMonitor: updating information
+00:00:00.022643 DCon01   HostDnsMonitor: old information
+00:00:00.022644 DCon01     no server entries
+00:00:00.022646 DCon01     no domain set
+00:00:00.022647 DCon01     no search string entries
+00:00:00.022648 DCon01   HostDnsMonitor: new information
+00:00:00.022650 DCon01     server 1: 5.20.0.10
+00:00:00.022651 DCon01     server 2: 5.20.0.11
+00:00:00.022653 DCon01     no domain set
+00:00:00.022654 DCon01     no search string entries
+00:00:00.024280 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.024417 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.025279 DCon01   Platform architecture set to 'x86'
+00:00:00.025744 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.025751 DCon01   /build/virtualbox/src/VirtualBox-7.1.6/src/VBox/Main/src-server/MachineImpl.cpp[984] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.025914 DCon01   Platform architecture set to 'x86'
+00:00:00.026274 DCon01   Loading settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:00:00.026527 DCon01   Platform architecture set to 'x86'
+00:00:00.027035 DCon01   VirtualBox: object created
+00:00:00.560343 DCon01   Platform architecture set to 'x86'
+00:00:00.560585 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.560594 DCon01   /build/virtualbox/src/VirtualBox-7.1.6/src/VBox/Main/src-server/MachineImpl.cpp[984] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.561246 DCon03   Platform architecture set to 'x86'
+00:00:00.561426 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.561433 DCon03   /build/virtualbox/src/VirtualBox-7.1.6/src/VBox/Main/src-server/MachineImpl.cpp[984] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.562481 DCon03   Platform architecture set to 'x86'
+00:00:00.562635 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.562640 DCon03   /build/virtualbox/src/VirtualBox-7.1.6/src/VBox/Main/src-server/MachineImpl.cpp[984] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.628956 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:00.630045 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:00.715361 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:00.824242 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:00.896135 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:00.897942 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:03.761956 DCon01   Launched VM: 1477334656 pid: 6885 (0x1ae5) frontend: GUI/Qt name: kali linux
+00:00:03.827841 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.846277 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.920966 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:03.921909 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.020882 DCon06   Platform architecture set to 'x86'
+00:00:04.037777 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.041412 DCon08   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.049460 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.050436 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.176419 DCon08   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.187904 DCon08   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:04.450730 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.452072 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.452410 DCon08   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:04.507066 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.507965 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.511273 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.561963 DCon08   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:04.566531 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:04.567320 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.567512 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.597763 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.613879 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.620098 DCon06   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.631096 DCon09   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:04.646621 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.647349 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.648230 DCon10   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.663468 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.664983 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.745302 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:04.746453 DCon03   HostDnsMonitorProxy::GetDomainName: no domain set
+00:00:04.746556 DCon03   HostDnsMonitorProxy::GetNameServers:
+00:00:04.746564 DCon03     name server 1: 5.20.0.10
+00:00:04.746568 DCon03     name server 2: 5.20.0.11
+00:00:04.746660 DCon03   HostDnsMonitorProxy::GetSearchStrings:
+00:00:04.746663 DCon03     no search string entries
+00:00:04.760565 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.761981 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.763577 DCon10   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.775643 DCon08   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.814346 DCon10   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.846547 DCon10   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:04.873854 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.874780 DCon10   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:04.990750 DCon08   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:00:05.005397 DCon08   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:00:05.015556 DCon10   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:05.027038 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:05.037315 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:05.038507 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:07.590212 DCon03   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:00:07.593254 DCon03   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:00:08.420381 DCon11   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:00:08.432191 DCon11   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:00:13.057447 DCon11   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:00:13.068677 DCon11   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:01:02.798489 DCon12   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:03.264504 DCon13   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:03.285960 DCon13   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:03.288892 DCon13   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:01:03.296853 DCon13   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:03.298772 DCon13   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:01:03.308715 DCon09   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:03.309137 DCon09   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:04.165744 DCon09   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:01:04.176683 DCon09   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:01:04.180931 DCon09   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:01:04.182414 DCon09   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:01:04.453727 DCon14   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:04.472086 DCon14   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:04.474031 DCon14   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:01:04.483074 DCon14   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:04.484851 DCon14   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:01:04.492818 DCon14   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:04.493174 DCon14   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:05.142111 DCon13   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:01:05.153114 DCon13   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:01:05.163285 DCon09   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:05.183829 DCon08   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:05.185716 DCon08   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:01:05.193675 DCon08   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:05.195190 DCon08   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:01:05.202715 DCon12   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:05.202991 DCon12   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:19.590433 DCon16   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:01:19.625766 DCon16   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:01:22.243596 DCon12   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:01:22.244035 DCon12   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:01:22.279753 DCon12   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:01:22.602150 DCon12   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:01:22.613017 DCon12   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:01:22.621814 DCon13   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:01:22.624050 DCon13   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:01:22.976592 DCon17   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:01:22.987206 DCon17   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+00:04:27.775424 DCon21   Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+00:04:27.811294 DCon21   Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+03:50:49.883338 DCon294  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+03:50:50.324053 DCon294  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:50:50.344331 DCon292  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+03:50:50.346918 DCon292  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+03:50:50.355677 DCon292  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+03:50:50.357327 DCon292  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+03:50:50.366618 DCon292  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+03:50:50.366950 DCon292  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+03:50:51.254253 DCon292  Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+03:50:51.264720 DCon292  Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+03:50:51.269353 DCon294  Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+03:50:51.270958 DCon294  Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+03:50:51.283162 DCon295  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+03:50:51.301837 DCon295  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+03:50:51.303436 DCon295  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+03:50:51.310771 DCon295  NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+03:50:51.312327 DCon295  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+03:50:51.319638 DCon295  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+03:50:51.319958 DCon295  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+03:50:51.848761 DCon293  Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+03:50:51.859449 DCon293  Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+03:50:51.866153 DCon294  Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+03:50:51.867783 DCon294  Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+03:50:52.190328 DCon293  Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+03:50:52.200690 DCon293  Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+03:50:59.290547 DCon295  Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+03:50:59.301469 DCon295  Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+05:05:15.690768 DCon386  Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+05:05:15.699116 DCon386  Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+05:05:18.339272 DCon384  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+05:05:18.340157 DCon384  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+05:05:18.341479 DCon384  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+05:05:18.366313 DCon384  Saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
+05:05:18.367849 DCon384  Finished saving settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox"
+05:05:18.378737 DCon384  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+05:05:18.379563 DCon384  WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+05:05:18.380423 DCon384  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+05:05:24.882804 main     VirtualBox: object deletion starts
+05:05:24.882894 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/andrey/VirtualBox VMs/kali linux/kali linux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+05:05:24.883758 main     HostDnsMonitor: shutting down ...
+05:05:24.888631 main     HostDnsMonitor: shut down
+05:05:24.899167 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+05:05:24.899243 main     VirtualBox: object deleted
