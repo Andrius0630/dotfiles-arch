@@ -12,7 +12,7 @@ super + d
 super + f
 	flatpak run one.ablaze.floorp	
 super + t
-	telegram-desktop
+	Telegram
 ctrl + Print
 	flameshot gui
 super + c
