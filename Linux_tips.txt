@@ -6,7 +6,7 @@ sudo pacman -Scc
 periodically delete this:
 	rm -rf ~/.local/share/Trash/files/*
 packages in arch:
-	xorg-setxkbmap xorg-xrandr xorg fish xorg-xinit bspwm dunst nitrogen polybar pulseaudio pulseaudio-bluetooth rofi sxhkd thunar xclip flatpak alsa-utils arc-gtk-theme sbase base-devel blueman bluez-utils bspwm dunst fastfetch firefox flameshot flatpak gedit git htop kitty networkmanager nitrogen obs-studio papirus-icon-theme pavucontrol picom-git polybar pulseaudio pulseaudio-bluetooth qview-git ranger rofi spotify-launcher sxhkd telegram-desktop thunar ttf-font-awesome ttf-liberation ttf-roboto-mono-nerd vim fish alsa-firmware xorg-xinit lxappearance fuse2 xclip mc python gdb gimp zip tree qbittorrent pinta reflector mpv neovim nano engrampa xorg-setxkbmap ncdu qutebrowser irssi shellcheck openfortivpn sshfs nbfc-linux
+	alsa-firmware alsa-utils arc-gtk-theme base-devel blueman bluez-utils bspwm dunst engrampa fastfetch firefox fish flameshot flatpak fuse2 gdb gedit gimp git htop irssi kitty lxappearance mc mpv nbfc-linux ncdu neovim networkmanager nitrogen obs-studio openfortivpn papirus-icon-theme pavucontrol picom-git pinta polybar pulseaudio pulseaudio-bluetooth python qbittorrent qtebrowser qview-git ranger reflector rofi sbase shellcheck spotify-launcher sshfs sxhkd telegram-desktop thunar tree ttf-font-awesome ttf-liberation ttf-roboto-mono-nerd vim xclip xorg xorg-xinit xorg-xrandr xorg-setxkbmap zip
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth.service
