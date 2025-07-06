@@ -1,22 +1,21 @@
-00:00:00.332681 VirtualBox GUI VM Selector Window 7.1.10 r169112 linux.amd64 (Jun  3 2025 19:52:37) release log
-00:00:00.332686 Log opened 2025-06-05T17:07:17.246158000Z
-00:00:00.332689 Build Type: release
-00:00:00.332694 OS Product: Linux
-00:00:00.332697 OS Release: 6.14.9-arch1-1
-00:00:00.332700 OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 29 May 2025 21:42:15 +0000
-00:00:00.332744 DMI Product Name: OMEN Laptop 15-en0xxx
-00:00:00.332765 DMI Product Version: 
-00:00:00.332776 Firmware type: UEFI
-00:00:00.332962 Secure Boot: Disabled
-00:00:00.333033 Host RAM: 31445MB (30.7GB) total, 25419MB (24.8GB) available
-00:00:00.333040 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.333043 Process ID: 77349
-00:00:00.333045 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.333089 Qt version: 6.9.1
-00:00:00.334176 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
-00:00:00.359087 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.863844 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:00.906271 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 12x54 x 976x1010
-00:00:04.094269 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:05.382598 GUI: UICommon: Handling aboutToQuit request..
-00:00:06.627291 GUI: UICommon: aboutToQuit request handled!
+00:00:00.437961 VirtualBox GUI VM Selector Window 7.1.10 r169112 linux.amd64 (Jun  3 2025 19:52:37) release log
+00:00:00.437964 Log opened 2025-06-12T17:59:54.260056000Z
+00:00:00.437965 Build Type: release
+00:00:00.437968 OS Product: Linux
+00:00:00.437970 OS Release: 6.14.9-arch1-1
+00:00:00.437972 OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 29 May 2025 21:42:15 +0000
+00:00:00.437997 DMI Product Name: OMEN Laptop 15-en0xxx
+00:00:00.438006 DMI Product Version: 
+00:00:00.438012 Firmware type: UEFI
+00:00:00.438132 Secure Boot: Disabled
+00:00:00.438162 Host RAM: 31445MB (30.7GB) total, 20702MB (20.2GB) available
+00:00:00.438166 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.438167 Process ID: 83801
+00:00:00.438169 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.438194 Qt version: 6.9.1
+00:00:00.439612 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.466951 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.083665 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.141607 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 12x54 x 976x1010
+00:00:17.886191 GUI: UICommon: Handling aboutToQuit request..
+00:00:18.899928 GUI: UICommon: aboutToQuit request handled!

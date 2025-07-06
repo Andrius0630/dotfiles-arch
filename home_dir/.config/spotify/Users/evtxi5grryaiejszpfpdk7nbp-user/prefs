@@ -1,4 +1,9 @@
-connect.dial_devices="[{\"address\":\"192.168.68.111\",\"app_state\":\"INSTALLABLE\",\"created_timestamp\":1748883144,\"device_id\":\"063b4268-5dd2-415c-8ff3-4f3c9ad6e7c6\",\"dial_location_url\":\"http://192.168.68.111:1948/\",\"display_name\":\"[LG] webOS TV SM8600PLA\",\"last_seen\":1748984404,\"manufacturer\":\"LG Electronics\",\"model_name\":\"55SM8600PLA\",\"product_cap\":\"\",\"public_ip\":\"79.133.228.60\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"60ab148d406e\",\"port\":9,\"retries\":480}}]"
-audio.play_bitrate_non_metered_migrated=true
 connect.mdns_devices="[]"
-app.player.volume=31710
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[{\"address\":\"192.168.100.100\",\"app_state\":\"MISSING\",\"created_timestamp\":1751804626,\"device_id\":\"00000000-0000-0000-0000-ecbe5f46c533\",\"dial_location_url\":\"http://192.168.100.100:56790/dd.xml\",\"display_name\":\"HbbTV_Remote_Launch\",\"last_seen\":1751804663,\"manufacturer\":\"vestel\",\"model_name\":\"Ata\",\"product_cap\":\"\",\"public_ip\":\"188.69.11.206\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"ecbe5f471178\",\"port\":9,\"retries\":240}},{\"address\":\"192.168.68.111\",\"app_state\":\"INSTALLABLE\",\"created_timestamp\":1750455712,\"device_id\":\"063b4268-5dd2-415c-8ff3-4f3c9ad6e7c6\",\"dial_location_url\":\"http://192.168.68.111:1535/\",\"display_name\":\"[LG] webOS TV SM8600PLA\",\"last_seen\":1750455891,\"manufacturer\":\"LG Electronics\",\"model_name\":\"55SM8600PLA\",\"product_cap\":\"\",\"public_ip\":\"79.133.228.60\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":250,\"mac\":\"60ab148d406e\",\"port\":9,\"retries\":480}}]"
+audio.sync_bitrate_enumeration=4
+audio.allow_downgrade=false
+audio.normalize_v2=false
+audio.play_bitrate_non_metered_enumeration=4
+audio.play_bitrate_enumeration=4
+app.player.volume=28187

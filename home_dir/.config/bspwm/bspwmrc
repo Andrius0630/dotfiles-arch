@@ -16,6 +16,7 @@ else
 fi
 
 
+bspc config active_border_color "#283143"
 bspc config border_width         2
 bspc config window_gap          12
 
@@ -25,8 +26,8 @@ bspc config gapless_monocle      true
 
 bspc config pointer_modifier mod4
 bspc config pointer_action1 move
-bspc config pointer action2 resize_side
-bspc config pointer_action2 rezize_corner
+bspc config pointer_action2 resize_side
+bspc config pointer_action3 rezize_corner
 
 bspc config focus_follows_pointer true
 

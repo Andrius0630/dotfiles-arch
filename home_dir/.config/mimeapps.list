@@ -4,7 +4,7 @@ x-scheme-handler/tonsite=org.telegram.desktop.desktop;
 text/x-python=org.gnome.gedit.desktop;
 text/x-csrc=org.gnome.gedit.desktop;sublime_text.desktop;
 application/msword=thunar.desktop;
-text/plain=org.gnome.gedit.desktop;sublime_text.desktop;
+text/plain=org.gnome.gedit.desktop;nvim.desktop;sublime_text.desktop;
 text/x-tex=org.gnome.gedit.desktop;
 image/png=com.interversehq.qView.desktop;krita_png.desktop;gimp.desktop;
 application/octet-stream=org.gnome.gedit.desktop;
@@ -20,6 +20,7 @@ x-scheme-handler/webcals=userapp-Thunderbird-Q50Z32.desktop;
 text/csv=org.gnome.gedit.desktop;onlyoffice-desktopeditors.desktop;
 application/json=org.gnome.gedit.desktop;
 text/x-chdr=org.gnome.gedit.desktop;
+image/heif=com.interversehq.qView.desktop;krita_heif.desktop;
 
 [Default Applications]
 x-scheme-handler/tonsite=org.telegram.desktop.desktop
