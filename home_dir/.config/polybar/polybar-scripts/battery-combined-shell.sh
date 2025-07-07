@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 #PATH_AC="/sys/class/power_supply/AC"
 PATH_AC="/sys/class/power_supply/ACAD/"
