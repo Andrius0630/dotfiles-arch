@@ -1,4 +1,4 @@
-@theme "/usr/share/rofi/themes/android_notification.rasi"
+@theme "~/.config/rofi/themes/android_notification.rasi"
 
 window {
     border-radius: 10px;
