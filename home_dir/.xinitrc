@@ -39,4 +39,5 @@ picom --daemon --config ~/.config/picom/picom.conf
 #polybar &
 xset r rate 250 30
 exec bspwm
-exec dunst
+#exec dwm
+exec --no-start-up dunst
