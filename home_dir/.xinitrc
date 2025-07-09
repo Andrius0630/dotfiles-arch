@@ -40,5 +40,4 @@ picom --daemon --config ~/.config/picom/picom.conf
 xset r rate 250 30
 exec bspwm
 #exec dwm
-#exec --no-start-up dunst
 setsid -f dunst
