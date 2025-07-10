@@ -1,42 +1,75 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
-shopt -s dotglob
-shopt -s nullglob
+configuration_path="${HOME}/dots/home_dir"
+target_configs="${HOME}/.config"
 
-path="/home/andrey"
-configuration_path="${path}/dots/home_dir"
+echo "Creating \".config\" folder in \"${HOME}\"..."
+mkdir -p "${target_configs}"
 
-configs=("${configuration_path}/configs/*")
-folders=("${configuration_path}/folders/*")
-dotfiles=("${configuration_path}/dotfiles/*")
+# configs ---------------------------
 
-configs_target="/home/andrey/.config/"
-mkdir -p "${configs_target}"
+echo "Making symlinks in \".config\" to the actual config files ..."
+echo "Found config folders:"
+for file in "${configuration_path}"/configs/*
+do
+    if [ -e "$file" ] || [ -L "$file" ]; then
+        file_name="${file##*/}"
+        echo "  ${file_name}"
 
-for file in "${configs[@]}"; do
-  file_name="${file##*/}"
-  rm -rf "${configs_target}/${file_name}"
+        rm -r "${target_configs:?}"/"${file_name}" 2> /dev/null
+        ln -sf "$file" "${target_configs:?}"/
+    fi
 done
 
-if [ ${#configs[@]} -gt 0 ]; then
-  ln -sf "${configs[@]}" "${configs_target}"
-fi
+for file in "${configuration_path}"/configs/.*
+do
+    if [ -e "$file" ] || [ -L "$file" ]; then
+        file_name="${file##*/}"
+        echo "  ${file_name}"
 
-
-for file in "${folders[@]}"; do
-  file_name="${file##*/}"
-  rm -rf "${path}/${file_name}"
+        rm -r "${target_configs:?}"/"${file_name}" 2> /dev/null
+        ln -sf "$file" "${target_configs:?}"/
+    fi
 done
 
-if [ ${#folders[@]} -gt 0 ]; then
-  ln -sf "${folders[@]}" "${path}/"
-fi
 
-for file in "${dotfiles[@]}"; do
-  file_name="${file##*/}"
-  rm -rf "${path}/${file_name}"
+# dotfiles ---------------------------
+
+echo "Making symlinks in \"${HOME}\" to the actual dotfiles..."
+echo "Found dotfiles for the \"${HOME}\" folder:"
+for file in "${configuration_path}"/dotfiles/*
+do
+    if [ -e "$file" ] || [ -L "$file" ]; then
+        file_name="${file##*/}"
+        echo "  ${file_name}"
+
+        rm -r "${HOME:?}"/"${file_name}" 2> /dev/null
+        ln -sf "$file" "${HOME:?}"/
+    fi
 done
 
-if [ ${#dotfiles[@]} -gt 0 ]; then
-  ln -sf "${dotfiles[@]}" "${path}/"
-fi
+
+for file in "${configuration_path}"/dotfiles/.*
+do
+    if [ -e "$file" ] || [ -L "$file" ]; then
+        file_name="${file##*/}"
+        echo "  ${file_name}"
+
+        rm -r "${HOME:?}"/"${file_name}" 2> /dev/null
+        ln -sf "$file" "${HOME:?}"/
+    fi
+done
+
+# wallpapers ---------------------------
+
+wallpaper_folder="wallpaper"
+
+echo "Creating \"Pictures\" folder in \"${HOME}\"..."
+echo "Creating symlinks for \"${wallpaper_folder}\" folder..."
+mkdir -p "${HOME:?}"/Pictures/
+
+rm -r "${HOME:?}"/Pictures/"${wallpaper_folder}" 2> /dev/null
+ln -sf "${configuration_path}"/folders/"${wallpaper_folder}" "${HOME:?}"/Pictures/
+
+echo ""
+echo "Done! Your user's home folder is now configured"
