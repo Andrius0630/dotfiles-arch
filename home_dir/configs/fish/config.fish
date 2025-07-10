@@ -3,5 +3,11 @@ if status is-interactive
 end
 
 function v
-	nvim $argv
+	nvim "$argv"
 end
+
+function git-update
+    git add . && git commit -m "$argv" && git push
+end
+
+
