@@ -19,7 +19,8 @@ super + c
 	code
 super + e
 	thunar
-
+super + {shift + }l
+    slock
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
