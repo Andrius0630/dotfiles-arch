@@ -1,5 +1,4 @@
-#!/bin/sh
-
+#!/usr/bin/env sh
 if xrandr -q | grep 'HDMI-0 connected'; then
 	#xrandr --output eDP-1 --auto --output HDMI-1-0 --auto --left-of eDP-1 --primary
 	xrandr --setprovideroutputsource modesetting NVIDIA-0
