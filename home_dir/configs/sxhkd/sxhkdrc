@@ -28,6 +28,9 @@ super + Escape
 XF86MonBrightness{Down,Up}
     $HOME/dots/scripts/brightness.sh {dec,inc}
 
+super + {shift + }r
+    $HOME/dots/scripts/rec.sh
+
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle
 

@@ -7,7 +7,7 @@ record() {
 
     echo $! > /tmp/recpid
 
-    notify-send -t 500 -h string:bgcolor:#a3be8c "Recording started & mic toggled"
+    notify-send -t 1000 -h string:bgcolor:#a3be8c "Recording started & mic toggled"
 }
 
 end() {
@@ -15,7 +15,7 @@ end() {
 
     kill -2 "$(cat /tmp/recpid)" && rm -f /tmp/recpid
 
-    notify-send -t 500 -h string:bgcolor:#bf616a "Recording ended & mic toggled"
+    notify-send -t 1000 -h string:bgcolor:#bf616a "Recording ended & mic toggled"
 }
 
-([[ -f /tmp/recpid ]] && end && exit 0) || record
+([ -f /tmp/recpid ] && end && exit 0) || record
