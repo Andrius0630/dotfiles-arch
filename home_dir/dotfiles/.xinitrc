@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -40,4 +40,6 @@ picom --daemon --config ~/.config/picom/picom.conf
 xset r rate 250 30
 exec bspwm
 #exec dwm
-setsid -f dunst
+
+sleep 5 && dunst &
+#setsid -f dunst
