@@ -13,7 +13,12 @@ polybar-msg cmd quit
 #polybar bar1 2>&1 | tee -a /tmp/polybar1.log & disown
 
 polybar main &
-if xrandr -q | grep 'HDMI-0 connected'; then
-    polybar secondary &
-fi
+
+#if xrandr -q | grep 'HDMI-0 connected'; then
+#    polybar secondary &
+#    polybar main &
+#else
+#    polybar main &
+#    polybar secondary &
+#fi
 #echo "Bars launched..."

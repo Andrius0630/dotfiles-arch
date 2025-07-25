@@ -41,5 +41,4 @@ xset r rate 250 30
 exec bspwm
 #exec dwm
 
-sleep 5 && dunst &
-#setsid -f dunst
+sleep 5 && setsid -f dunst

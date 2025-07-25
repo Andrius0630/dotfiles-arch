@@ -27,6 +27,12 @@ super + Escape
 
 XF86MonBrightness{Down,Up}
     $HOME/dots/scripts/brightness.sh {dec,inc}
+
+XF86AudioMute
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+XF86AudioMicMute
+    pactl set-source-mute @DEFAULT_SOURCE@ toggle
 #
 # bspwm hotkeys
 #
