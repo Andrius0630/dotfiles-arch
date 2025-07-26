@@ -33,6 +33,8 @@ fi
 #xrandr --auto
 
 
+setsid -f dunst
+setsid -f flameshot
 xsetroot -cursor_name left_ptr
 nitrogen --restore
 picom --daemon --config ~/.config/picom/picom.conf
@@ -41,4 +43,4 @@ xset r rate 250 30
 exec bspwm
 #exec dwm
 
-sleep 5 && setsid -f dunst
+
