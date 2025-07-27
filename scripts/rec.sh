@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 record() {
-    pactl set-source-mute @DEFAULT_SOURCE@ toggle
+    "$HOME/dots/scripts/mic-toggle.sh"
 
     ffmpeg -s 1920x1080 -r 60 -f x11grab -i :0.0 -c:v h264 -f pulse -i default -qp 0 "$HOME/Videos/$(date '+%Y-%m-%d__%a__%H:%M:%S').mp4" &
 
@@ -13,7 +13,7 @@ record() {
 }
 
 end() {
-    pactl set-source-mute @DEFAULT_SOURCE@ toggle
+    "$HOME/dots/scripts/mic-toggle.sh"
 
     kill -2 "$(cat /tmp/recpid)" && rm -f /tmp/recpid
 
