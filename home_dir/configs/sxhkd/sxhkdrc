@@ -35,7 +35,8 @@ XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 XF86AudioMicMute
-    pactl set-source-mute @DEFAULT_SOURCE@ toggle
+    $HOME/dots/scripts/mic-toggle.sh
+
 #
 # bspwm hotkeys
 #
