@@ -25,13 +25,8 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-xrandr --setprovideroutputsource modesetting NVIDIA-0
-if xrandr -q | grep 'HDMI-0 disconnected';
-  then
-    xrandr --output eDP-1-1 --mode 1920x1080 --rate 60.02
-fi
-#xrandr --auto
 
+#"$HOME/dots/scripts/update-monitors.sh"
 
 setsid -f dunst
 setsid -f flameshot
@@ -42,5 +37,4 @@ picom --daemon --config ~/.config/picom/picom.conf
 xset r rate 250 30
 exec bspwm
 #exec dwm
-
 

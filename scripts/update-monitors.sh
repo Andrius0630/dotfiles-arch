@@ -1,0 +1,1 @@
+/home/andrey/dots/home_dir/dotfiles/update_monitor.sh
