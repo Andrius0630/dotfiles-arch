@@ -26,7 +26,7 @@ if [ -f "$usermodmap" ]; then
 fi
 
 
-#"$HOME/dots/scripts/update-monitors.sh"
+$HOME/dots/scripts/update-monitor.sh
 
 setsid -f dunst
 setsid -f flameshot
@@ -37,4 +37,3 @@ picom --daemon --config ~/.config/picom/picom.conf
 xset r rate 250 30
 exec bspwm
 #exec dwm
-

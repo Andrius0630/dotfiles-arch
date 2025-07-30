@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-"$HOME/dots/scripts/update-monitors.sh"
+$HOME/dots/scripts/update-monitor.sh
 
 bspc config active_border_color "#283143"
 bspc config border_width         2
