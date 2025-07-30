@@ -37,6 +37,9 @@ XF86AudioMute
 XF86AudioMicMute
     $HOME/dots/scripts/mic-toggle.sh
 
+XF86Audio{Lower,Raise}Volume
+    $HOME/dots/scripts/volume.sh {dec,inc}
+
 #
 # bspwm hotkeys
 #
