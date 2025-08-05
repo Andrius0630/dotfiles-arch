@@ -1,8 +1,5 @@
 #!/usr/bin/env sh
 
-#echo $HOME
-#echo $HOSTNAME
-
 if xrandr -q | grep "HDMI-0 connected"; then
 	xrandr --setprovideroutputsource modesetting NVIDIA-0
 	xrandr --output eDP-1-1 --auto --output HDMI-0 --auto --left-of eDP-1-1 --primary 

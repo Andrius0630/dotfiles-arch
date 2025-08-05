@@ -31,9 +31,9 @@ $HOME/dots/scripts/update-monitor.sh
 setsid -f dunst
 setsid -f flameshot
 xsetroot -cursor_name left_ptr
+xset r rate 250 30
 nitrogen --restore
 picom --daemon --config ~/.config/picom/picom.conf
 #polybar &
-xset r rate 250 30
 exec bspwm
 #exec dwm
