@@ -26,7 +26,7 @@ if [ -f "$usermodmap" ]; then
 fi
 
 
-$HOME/dots/scripts/update-monitor.sh
+$HOME/dotfiles-arch/scripts/update-monitor.sh
 
 xset r rate 250 30
 setsid -f dunst

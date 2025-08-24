@@ -28,19 +28,19 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 XF86MonBrightness{Down,Up}
-    $HOME/dots/scripts/brightness.sh {dec,inc}
+    $HOME/dotfiles-arch/scripts/brightness.sh {dec,inc}
 
 super + {shift + }r
-    $HOME/dots/scripts/rec.sh
+    $HOME/dotfiles-arch/scripts/rec.sh
 
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 XF86AudioMicMute
-    $HOME/dots/scripts/mic-toggle.sh
+    $HOME/dotfiles-arch/scripts/mic-toggle.sh
 
 XF86Audio{Lower,Raise}Volume
-    $HOME/dots/scripts/volume.sh {dec,inc}
+    $HOME/dotfiles-arch/scripts/volume.sh {dec,inc}
 
 #
 # bspwm hotkeys

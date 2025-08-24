@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-$HOME/dots/scripts/update-monitor.sh
+$HOME/dotfiles-arch/scripts/update-monitor.sh
 
 nitrogen --restore
 
