@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-configuration_path="${HOME}/dots/home_dir"
+configuration_path="${HOME}/dotfiles-arch/home_dir"
 target_configs="${HOME}/.config"
 
 echo "Creating \".config\" folder in \"${HOME}\"..."
