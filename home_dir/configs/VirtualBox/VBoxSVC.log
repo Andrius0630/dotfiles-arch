@@ -1,140 +1,97 @@
-00:00:00.001589 main     VirtualBox XPCOM Server 7.1.10 r169112 linux.amd64 (Jun  3 2025 19:52:37) release log
-00:00:00.001592 main     Log opened 2025-06-12T17:59:53.921211000Z
-00:00:00.001593 main     Build Type: release
-00:00:00.001596 main     OS Product: Linux
-00:00:00.001597 main     OS Release: 6.14.9-arch1-1
-00:00:00.001599 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 29 May 2025 21:42:15 +0000
-00:00:00.001624 main     DMI Product Name: OMEN Laptop 15-en0xxx
-00:00:00.001633 main     DMI Product Version: 
-00:00:00.001641 main     Firmware type: UEFI
-00:00:00.001785 main     Secure Boot: Disabled
-00:00:00.001817 main     Host RAM: 31445MB (30.7GB) total, 20704MB (20.2GB) available
-00:00:00.001819 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.001821 main     Process ID: 83816
-00:00:00.001822 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.004408 main     IPC socket path: /tmp/.vbox-andrey-ipc/ipcd
-00:00:00.027905 DCon01   VirtualBox: object creation starts
-00:00:00.029011 DCon01   Home directory: '/home/andrey/.config/VirtualBox'
-00:00:00.029929 DCon01   Loading settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.039679 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.041119 DCon01   HostDnsMonitor: initializing
-00:00:00.041298 DCon01   NAT: resolv.conf: nameserver 5.20.0.10
-00:00:00.041305 DCon01   NAT: resolv.conf: nameserver 5.20.0.11
-00:00:00.041312 DCon01   HostDnsMonitor: updating information
-00:00:00.041322 DCon01   HostDnsMonitor: old information
-00:00:00.041326 DCon01     no server entries
-00:00:00.041329 DCon01     no domain set
-00:00:00.041333 DCon01     no search string entries
-00:00:00.041337 DCon01   HostDnsMonitor: new information
-00:00:00.041340 DCon01     server 1: 5.20.0.10
-00:00:00.041345 DCon01     server 2: 5.20.0.11
-00:00:00.041348 DCon01     no domain set
-00:00:00.041352 DCon01     no search string entries
-00:00:00.044107 DCon01   VD: VDInit finished with VINF_SUCCESS
-00:00:00.044592 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.045901 DCon01   Platform architecture set to 'x86'
-00:00:00.048952 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:00:00.048957 DCon01   /build/virtualbox/src/VirtualBox-7.1.10/src/VBox/Main/src-server/MachineImpl.cpp[984] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:00:00.049334 DCon01   Platform architecture set to 'x86'
-00:00:00.049818 DCon01   Loading settings file "/home/andrey/VirtualBox VMs/kali linux/kali linux.vbox" with version "1.19-linux"
-00:00:00.049943 DCon01   Platform architecture set to 'x86'
-00:00:00.050194 DCon01   Platform architecture set to 'x86'
-00:00:00.050421 DCon01   Loading settings file "/home/andrey/VirtualBox VMs/freebsd/freebsd.vbox" with version "1.19-linux"
-00:00:00.050501 DCon01   Platform architecture set to 'x86'
-00:00:00.050575 DCon01   Platform architecture set to 'x86'
-00:00:00.050919 DCon01   Loading settings file "/home/andrey/VirtualBox VMs/netbsd/netbsd.vbox" with version "1.19-linux"
-00:00:00.050998 DCon01   Platform architecture set to 'x86'
-00:00:00.051383 DCon01   VirtualBox: object created
-00:00:00.861112 DCon04   Platform architecture set to 'x86'
-00:00:00.861343 DCon04   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:00:00.861354 DCon04   /build/virtualbox/src/VirtualBox-7.1.10/src/VBox/Main/src-server/MachineImpl.cpp[984] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:00:00.862145 DCon04   Platform architecture set to 'x86'
-00:00:00.862294 DCon04   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:00:00.862301 DCon04   /build/virtualbox/src/VirtualBox-7.1.10/src/VBox/Main/src-server/MachineImpl.cpp[984] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:00:00.863433 DCon04   Platform architecture set to 'x86'
-00:00:00.863566 DCon04   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
-00:00:00.863573 DCon04   /build/virtualbox/src/VirtualBox-7.1.10/src/VBox/Main/src-server/MachineImpl.cpp[984] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
-00:00:00.990037 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:00.991374 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
-00:00:01.174203 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-00:00:01.294491 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:01.379857 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:01.382636 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:01.449024 DCon04   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:01.451588 DCon04   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:02.235725 DCon04   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:02.247298 DCon04   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:02.253895 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:02.272436 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-00:00:02.288433 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:02.336265 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:02.338144 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:05.908419 DCon02   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-00:00:05.908536 DCon02   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:05.919624 DCon02   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:05.919751 DCon02   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:05.921937 DCon02   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:05.925155 DeleteVM Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:05.932581 DeleteVM Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:05.934851 DCon01   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:05.938958 DCon01   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:05.944944 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {0ff2f826-ecec-478c-9f2d-ca7e9090b147}}, preserve=false aResultDetail=0
-00:00:05.951678 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:05.968798 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {0ff2f826-ecec-478c-9f2d-ca7e9090b147}}, preserve=false aResultDetail=0
-00:00:05.974678 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:05.986254 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-00:00:05.996556 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:06.029798 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:06.031990 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:06.751689 DCon04   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:06.770876 DCon04   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:06.774488 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:06.784037 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-00:00:06.793336 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:06.813154 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:06.814888 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:08.746158 DCon04   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-00:00:08.746240 DCon04   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:08.756972 DCon04   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:08.757046 DCon04   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:08.758410 DCon04   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:08.760964 DeleteVM Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:08.763083 DeleteVM Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:08.766592 DCon02   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:08.769044 DCon02   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:08.774242 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {12193199-25d0-4f88-b58f-b3a5733fd9a4}}, preserve=false aResultDetail=0
-00:00:08.781868 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {12193199-25d0-4f88-b58f-b3a5733fd9a4}}, preserve=false aResultDetail=0
-00:00:08.797174 DCon05   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:08.807907 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-00:00:08.817691 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:08.850443 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:08.853284 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:09.345494 DCon02   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:09.357223 DCon02   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:10.937627 DCon02   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:10.948624 DCon02   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:10.985295 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:11.018512 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-00:00:11.029556 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:11.054398 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:11.056886 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:14.721067 DCon02   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
-00:00:14.721180 DCon02   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:14.732345 DCon02   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:14.732466 DCon02   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:14.734341 DCon02   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:14.736148 DeleteVM Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:14.743483 DeleteVM Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:14.746479 DCon03   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:14.748425 DCon03   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
-00:00:14.764165 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {fe3c1ffc-fd52-47d2-9e5c-1d880c7452d1}}, preserve=false aResultDetail=0
-00:00:14.780547 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {fe3c1ffc-fd52-47d2-9e5c-1d880c7452d1}}, preserve=false aResultDetail=0
-00:00:14.841185 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-00:00:14.859865 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-00:00:14.899389 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:14.901132 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
-00:00:23.787086 main     VirtualBox: object deletion starts
-00:00:23.787722 main     HostDnsMonitor: shutting down ...
-00:00:23.792081 main     HostDnsMonitor: shut down
-00:00:23.802796 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-00:00:23.802879 main     VirtualBox: object deleted
+00:00:00.000416 main     VirtualBox XPCOM Server 7.2.0 r170228 linux.amd64 (Aug 14 2025 19:02:36) release log
+00:00:00.000419 main     Log opened 2025-08-22T21:30:42.705522000Z
+00:00:00.000420 main     Build Type: release
+00:00:00.000424 main     OS Product: Linux
+00:00:00.000425 main     OS Release: 6.16.1-arch1-1
+00:00:00.000427 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 15 Aug 2025 16:04:43 +0000
+00:00:00.000450 main     DMI Product Name: OMEN Laptop 15-en0xxx
+00:00:00.000460 main     DMI Product Version: 
+00:00:00.000467 main     Firmware type: UEFI
+00:00:00.000573 main     Secure Boot: Disabled
+00:00:00.000618 main     Host RAM: 31445MB (30.7GB) total, 25429MB (24.8GB) available
+00:00:00.000622 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000623 main     Process ID: 301330
+00:00:00.000624 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.007652 main     IPC socket path: /tmp/.vbox-andrey-ipc/ipcd
+00:00:00.011193 DCon01   VirtualBox: object creation starts
+00:00:00.011280 DCon01   Home directory: '/home/andrey/.config/VirtualBox'
+00:00:00.011426 DCon01   Loading settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.021746 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.023518 DCon01   HostDnsMonitor: initializing
+00:00:00.023787 DCon01   NAT: resolv.conf: nameserver 192.168.100.1
+00:00:00.023805 DCon01   HostDnsMonitor: updating information
+00:00:00.023816 DCon01   HostDnsMonitor: old information
+00:00:00.023820 DCon01     no server entries
+00:00:00.023840 DCon01     no domain set
+00:00:00.023847 DCon01     no search string entries
+00:00:00.023851 DCon01   HostDnsMonitor: new information
+00:00:00.023856 DCon01     server 1: 192.168.100.1
+00:00:00.023860 DCon01     no domain set
+00:00:00.023865 DCon01     no search string entries
+00:00:00.025657 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.025744 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.026502 DCon01   Platform architecture set to 'x86'
+00:00:00.026735 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.026738 DCon01   /build/virtualbox/src/VirtualBox-7.2.0/src/VBox/Main/src-server/MachineImpl.cpp[1000] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.026842 DCon01   Platform architecture set to 'x86'
+00:00:00.027048 DCon01   Loading settings file "/home/andrey/VirtualBox VMs/debian/debian.vbox" with version "1.19-linux"
+00:00:00.027180 DCon01   Platform architecture set to 'x86'
+00:00:00.027309 DCon01   Platform architecture set to 'x86'
+00:00:00.027577 DCon01   Loading settings file "/home/andrey/VirtualBox VMs/win 11/win 11.vbox" with version "1.19-linux"
+00:00:00.027705 DCon01   Platform architecture set to 'x86'
+00:00:00.028221 DCon01   VirtualBox: object created
+00:00:00.953356 DCon01   Platform architecture set to 'x86'
+00:00:00.953516 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.953522 DCon01   /build/virtualbox/src/VirtualBox-7.2.0/src/VBox/Main/src-server/MachineImpl.cpp[1000] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.954184 DCon01   Platform architecture set to 'x86'
+00:00:00.954274 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.954278 DCon01   /build/virtualbox/src/VirtualBox-7.2.0/src/VBox/Main/src-server/MachineImpl.cpp[1000] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:00.955046 DCon01   Platform architecture set to 'x86'
+00:00:00.955156 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Runtime error opening '/mnt/VirtualBox VMs/win 10 ADATA Clone/win 10 ADATA Clone.vbox' for reading VERR_FILE_NOT_FOUND (File not found.).
+00:00:00.955159 DCon01   /build/virtualbox/src/VirtualBox-7.2.0/src/VBox/Main/src-server/MachineImpl.cpp[1000] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:01.027364 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:01.029031 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:01.079614 DCon01   NvramStore: Loading 'TpmEmuTpms/permall' from archive
+00:00:01.079642 DCon01   NvramStore: Loading 'efi/nvram' from archive
+00:00:01.200614 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:01.266970 DCon01   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:01.268702 DCon02   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:01.361291 DCon02   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.363102 DCon02   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:10.182083 DCon01   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:10.182150 DCon01   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.217567 DCon01   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:10.217629 DCon01   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.219144 DCon01   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:10.221464 DeleteVM Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.227907 DeleteVM Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:10.229472 DCon03   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:10.235243 DCon03   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:10.236783 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {24df8102-6f5f-4fc2-a67a-0d0d4d137091}}, preserve=false aResultDetail=0
+00:00:10.242884 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:10.254546 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {24df8102-6f5f-4fc2-a67a-0d0d4d137091}}, preserve=false aResultDetail=0
+00:00:10.264686 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:10.271144 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:10.286559 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:10.305691 DCon03   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:10.308294 DCon04   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:25.357852 DCon04   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:25.357978 DCon04   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:25.368390 DCon04   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:25.368441 DCon04   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:25.369903 DCon04   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:25.372983 DeleteVM Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:25.378777 DeleteVM Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:25.380657 DCon07   Saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:25.382336 DCon07   Finished saving settings file "/home/andrey/.config/VirtualBox/VirtualBox.xml"
+00:00:25.385330 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {e9deea3c-88f3-46ce-bb66-6f8a61e4f68d}}, preserve=false aResultDetail=0
+00:00:25.395616 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {e9deea3c-88f3-46ce-bb66-6f8a61e4f68d}}, preserve=false aResultDetail=0
+00:00:25.459279 DCon07   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:25.489437 DCon07   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:25.563593 DCon07   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:00:25.565269 DCon07   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true aResultDetail=0
+00:13:18.781458 main     VirtualBox: object deletion starts
+00:13:18.782140 main     HostDnsMonitor: shutting down ...
+00:13:18.782681 main     HostDnsMonitor: shut down
+00:13:18.793590 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:13:18.793647 main     VirtualBox: object deleted
