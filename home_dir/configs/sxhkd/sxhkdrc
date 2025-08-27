@@ -10,7 +10,8 @@ super + Return
 super + d
 	rofi -show drun
 super + f
-	flatpak run one.ablaze.floorp	
+#	flatpak run one.ablaze.floorp	
+    floorp
 super + t
 	Telegram
 ctrl + Print
