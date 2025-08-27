@@ -11,7 +11,7 @@ super + d
 	rofi -show drun
 super + f
 #	flatpak run one.ablaze.floorp	
-    floorp
+    librewolf
 super + t
 	Telegram
 ctrl + Print
