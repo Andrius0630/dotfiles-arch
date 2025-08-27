@@ -6,7 +6,7 @@ sudo pacman -Scc
 periodically delete this:
 	rm -rf ~/.local/share/Trash/files/*
 packages in arch:
-	alsa-firmware alsa-utils arc-gtk-theme base-devel brightnessctl blueman bluez bluez-utils bspwm dunst engrampa fastfetch firefox fish flameshot flatpak fuse2 gdb gedit gimp git htop irssi kitty lxappearance mc mpv nbfc-linux ncdu neovim networkmanager nitrogen obs-studio openfortivpn papirus-icon-theme pavucontrol picom polybar pulseaudio pulseaudio-bluetooth python qbittorrent qutebrowser qview ranger reflector rofi sbase shellcheck spotify-launcher sshfs sxhkd telegram-desktop thunar tree ttf-font-awesome ttf-liberation ttf-roboto-mono-nerd vim xclip xorg xorg-xinit xorg-xrandr xorg-setxkbmap xorg-xsetroot xorg-xset zip ly
+	alsa-firmware alsa-utils arc-gtk-theme base-devel brightnessctl blueman bluez bluez-utils bspwm dunst engrampa fastfetch floorp-bin fish flameshot gedit gimp git htop kitty lxappearance mpv ncdu neovim networkmanager nitrogen openfortivpn papirus-icon-theme pavucontrol picom polybar pulseaudio pulseaudio-bluetooth python qbittorrent qutebrowser qview rofi rust shellcheck spotify-launcher sshfs sxhkd telegram-desktop thunar tree ttf-font-awesome ttf-liberation ttf-roboto-mono-nerd vim xclip xorg xorg-xinit xorg-xrandr xorg-setxkbmap xorg-xsetroot xorg-xset zip ly
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth.service
