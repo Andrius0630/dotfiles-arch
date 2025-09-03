@@ -24,7 +24,7 @@ BackgroundStyleForNewImage=0
 CanvasOnlyActive=false
 CanvasSize/ConstrainProportions=false
 CanvasSize/KeepAspectRatio=false
-ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">1</param>\n <param name="downsample" type="internal">false</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB r="1" b="1" g="1" space="sRGB-elle-V2-g10.icc"/>\n</color>\n]]></param>\n</params>\n
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">1</param>\n <param name="downsample" type="internal">false</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" space="sRGB-elle-V2-g10.icc" g="1" r="1"/>\n</color>\n]]></param>\n</params>\n
 GamutMasks.viewMode=0
 Krita/Ocio/DisplayDevice=sRGB
 Krita/Ocio/DisplayLook=None
@@ -35,8 +35,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB r="1" b="1" g="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB r="0.0784313753247261" b="0.0745098069310188" g="0.0705882385373116" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="1" space="sRGB-elle-V2-srgbtrc.icc" g="1" r="1"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0.0745098069310188" space="sRGB-elle-V2-srgbtrc.icc" g="0.0705882385373116" r="0.0784313753247261"/>\n</LastForeGroundColor>\n
 LastPreset=b) Airbrush Soft
 LastPreset_-1=b) Airbrush Soft
 LineSmoothingDelayDistance=50
@@ -82,7 +82,7 @@ guidesLineStyle=0
 imageHeightDef=3508
 imageResolutionDef=300
 imageWidthDef=2480
-imagesizedlg_imsizeunit=px
+imagesizedlg_imsizeunit=%
 imagesizedlg_printSizeSeparatly=false
 imagesizedlg_ratioLock=true
 imagesizedlg_resunit=Pixels/Inch
@@ -149,7 +149,7 @@ toolbarslider_4=flow
 
 [File Dialogs]
 OpenDocument=/home/andrey/Tmp
-SaveAs=/home/andrey/Pictures/wallpaper
+SaveAs=/home/andrey/Downloads
 
 [GradientChooser]
 global/itemSize=medium
@@ -443,11 +443,21 @@ pinControls=true
 
 [RecentFiles]
 File1[$e]=$HOME/Sync/Samsung Galaxy A40/Camera/20250508_193931.heic
-File2[$e]=$HOME/Tmp/1.png
-File3[$e]=$HOME/Pictures/wallpaper/1739221943_new_corbax-studio-corbax-games-leftright-7.jpg
+File2[$e]=$HOME/Downloads/IMG_0608.png
+File3[$e]=$HOME/Downloads/IMG_0609.png
+File4[$e]=$HOME/Downloads/IMG_0610.png
+File5[$e]=$HOME/Downloads/IMG_0611.png
+File6[$e]=$HOME/Downloads/IMG_0612.png
+File7[$e]=$HOME/Downloads/IMG_0613.png
+File8[$e]=$HOME/Downloads/IMG_0614.png
 Name1=20250508_193931.heic
-Name2=1.png
-Name3=1739221943_new_corbax-studio-corbax-games-leftright-7.jpg
+Name2=IMG_0608.png
+Name3=IMG_0609.png
+Name4=IMG_0610.png
+Name5=IMG_0611.png
+Name6=IMG_0612.png
+Name7=IMG_0613.png
+Name8=IMG_0614.png
 maxRecentFileItems=100
 
 [SelectedTags]
