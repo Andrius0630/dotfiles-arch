@@ -34,6 +34,9 @@ XF86MonBrightness{Down,Up}
 super + {shift + }r
     $HOME/dotfiles-arch/scripts/rec.sh
 
+super + {shift + }c
+    $HOME/dotfiles-arch/scripts/webcam.sh
+
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle
 
