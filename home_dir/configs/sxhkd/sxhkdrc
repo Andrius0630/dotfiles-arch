@@ -24,6 +24,8 @@ super + {shift + }l
     slock
 super + {shift + }p
     $HOME/dotfiles-arch/scripts/power-menu.sh
+super + b
+    $HOME/dotfiles-arch/scripts/bookmarks-rofi.sh
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
