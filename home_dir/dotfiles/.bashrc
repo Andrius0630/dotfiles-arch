@@ -10,6 +10,7 @@ alias grep='grep --color=auto'
 alias v='nvim'
 PS1='[\u@\h \W]\$ '
 export TERM=xterm-256color
+export PATH=$PATH:~/.cargo/bin/
 
 git-update() {
     git add . && git commit -m "$1" && git push
