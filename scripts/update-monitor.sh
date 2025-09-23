@@ -1,15 +1,17 @@
 #!/usr/bin/env sh
 
-if xrandr -q | grep "HDMI-0 connected"; then
+# setup_external <external_monitor> <laptop_monitor>
+setup_external() {
 	xrandr --setprovideroutputsource modesetting NVIDIA-0
-	xrandr --output eDP-1-1 --auto --output HDMI-0 --auto --left-of eDP-1-1 --primary 
-	bspc monitor HDMI-0 -d 1 2 3 4
-	bspc monitor eDP-1-1 -d 5 6 7 8 9 0
+	xrandr --output "$2" --auto --output "$1" --mode 1920x1080 --left-of "$2" --primary 
+	bspc monitor "$1" -d 1 2 3 4
+	bspc monitor "$2" -d 5 6 7 8 9 0
+}
+
+if xrandr -q | grep "HDMI-0 connected"; then
+	setup_external "HDMI-0" "eDP-1-1"
 elif xrandr -q | grep "HDMI-1 connected"; then
-	#xrandr --setprovideroutputsource modesetting NVIDIA-0
-	xrandr --output eDP-1 --auto --output HDMI-1 --auto --left-of eDP-1 --primary 
-	bspc monitor HDMI-1 -d 1 2 3 4
-	bspc monitor eDP-1 -d 5 6 7 8 9 0
+	setup_external "HDMI-1" "eDP-1"
 else
 	xrandr --setprovideroutputsource modesetting NVIDIA-0
 	xrandr --auto
