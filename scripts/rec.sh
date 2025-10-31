@@ -3,7 +3,9 @@
 record() {
     "$HOME/dotfiles-arch/scripts/mic-toggle.sh"
 
-    ffmpeg -s 1920x1080 -r 60 -f x11grab -i :0.0 -c:v h264 -f pulse -i default -qp 0 "$HOME/Videos/$(date '+%Y-%m-%d__%a__%H:%M:%S').mp4" &
+    #ffmpeg -s 1920x1080 -r 60 -f x11grab -i :0.0 -c:v h264 -f pulse -i default -qp 0 "$HOME/Videos/$(date '+%Y-%m-%d__%a__%H:%M:%S').mp4" &
+    #ffmpeg -s 1920x1080 -r 60 -f x11grab -i :0.0 -c:v h264 -f pulse -i default.monitor -qp 0 "$HOME/Videos/$(date '+%Y-%m-%d__%a__%H:%M:%S').mp4" &
+    ffmpeg -s 1920x1080 -r 60 -f x11grab -i :0.0 -c:v h264 -f pulse -i alsa_output.usb-Apple__Inc._EarPods_JHHJHXK9MR-00.analog-stereo.monitor -qp 0 "$HOME/Videos/$(date '+%Y-%m-%d__%a__%H:%M:%S').mp4" &
 
     echo $! > /tmp/recpid
 
