@@ -34,7 +34,7 @@ setsid -f flameshot
 xsetroot -cursor_name left_ptr
 xset r rate 250 30
 nitrogen --restore
-picom --daemon --config ~/.config/picom/picom.conf
+#picom --daemon --config ~/.config/picom/picom.conf
 xset r rate 250 30
 #polybar &
 exec bspwm
