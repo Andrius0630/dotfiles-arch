@@ -1,3 +1,38 @@
 #!/usr/bin/env sh
 
 sudo reflector --latest 20 --p https --sort rate --save /etc/pacman.d/mirrorlist
+
+cat << "EOF" > "/etc/xdg/reflector/reflector.conf"
+# Reflector configuration file for the systemd service.
+#
+# Empty lines and lines beginning with "#" are ignored.  All other lines should
+# contain valid reflector command-line arguments. The lines are parsed with
+# Python's shlex modules so standard shell syntax should work. All arguments are
+# collected into a single argument list.
+#
+# See "reflector --help" for details.
+
+# Recommended Options
+
+# Set the output path where the mirrorlist will be saved (--save).
+--save /etc/pacman.d/mirrorlist
+
+# Select the transfer protocol (--protocol).
+--protocol https
+
+# Select the country (--country).
+# Consult the list of available countries with "reflector --list-countries" and
+# select the countries nearest to you or the ones that you trust. For example:
+# --country France,Germany
+
+# Use only the  most recently synchronized mirrors (--latest).
+--latest 20
+
+# Sort the mirrors by synchronization time (--sort).
+--sort rate
+EOF
+
+
+sudo systemctl enable reflector.service
+
+sudo systemctl enable --now reflector.timer
