@@ -38,4 +38,5 @@ nitrogen --restore
 xset r rate 250 30
 #polybar &
 exec bspwm
+#i3
 #exec dwm
