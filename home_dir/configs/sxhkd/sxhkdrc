@@ -21,7 +21,7 @@ super + c
 super + e
 	thunar
 super + {shift + }l
-    slock
+    i3lock
 super + {shift + }p
     $HOME/dotfiles-arch/scripts/power-menu.sh
 super + b

@@ -8,7 +8,7 @@ case "$chose" in
     ;;
     "Reboot") reboot
     ;;
-    "Lock") slock
+    "Lock") i3lock
     ;;
     *) exit 1
     ;;
