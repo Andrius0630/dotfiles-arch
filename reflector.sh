@@ -2,7 +2,7 @@
 
 sudo reflector --latest 20 --p https --sort rate --save /etc/pacman.d/mirrorlist
 
-cat << "EOF" > "/etc/xdg/reflector/reflector.conf"
+sudo cat << "EOF" > "/etc/xdg/reflector/reflector.conf"
 # Reflector configuration file for the systemd service.
 #
 # Empty lines and lines beginning with "#" are ignored.  All other lines should
