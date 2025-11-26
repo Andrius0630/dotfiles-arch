@@ -36,6 +36,7 @@ xset r rate 250 30
 nitrogen --restore
 #picom --daemon --config ~/.config/picom/picom.conf
 xset r rate 250 30
+setxkbmap -layout us,ru,lt -option "grp:alt_shift_toggle"
 #polybar &
 exec bspwm
 #i3
