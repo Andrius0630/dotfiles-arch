@@ -21,6 +21,7 @@ text/csv=org.gnome.gedit.desktop;onlyoffice-desktopeditors.desktop;
 application/json=org.gnome.gedit.desktop;
 text/x-chdr=org.gnome.gedit.desktop;
 image/heif=com.interversehq.qView.desktop;krita_heif.desktop;
+image/x-adobe-dng=com.interversehq.qView.desktop;
 
 [Default Applications]
 x-scheme-handler/tonsite=org.telegram.desktop.desktop
