@@ -25,5 +25,10 @@ call plug#begin()
     Plug 'scrooloose/nerdtree'        " File explorer
     Plug 'tpope/vim-surround'       " Quoting/parenthesizing made simple
     Plug 'tpope/vim-commentary'  " Toggle comments
-    Plug 'justinmk/vim-snipe'    " 2-character search/jum
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
+
+nnoremap("<C-d>", "<C-d>zz")
+nnoremap("<C-u>", "<C-u>zz")
+nnoremap("n", "nzzzv")
+nnoremap("N", "Nzzzv")
