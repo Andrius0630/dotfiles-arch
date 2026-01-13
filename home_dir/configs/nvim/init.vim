@@ -34,6 +34,9 @@ nnoremap("<C-u>", "<C-u>zz")
 nnoremap("n", "nzzzv")
 nnoremap("N", "Nzzzv")
 
+nnoremap <C-m> I- <Esc>
+vnoremap <C-m> :norm I- <Esc>
+
 vmap s S
 
 let g:surround_{char2nr('b')} = "**\r**"
