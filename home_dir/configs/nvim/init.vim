@@ -4,7 +4,7 @@ set cursorline       " Highlight the current line
 set showcmd          " Show partial commands in the bottom line
 set laststatus=2     " Always show the status bar
 set mouse=a          " Enable mouse support for scrolling/resizing
-
+set ff=unix
 
 set hlsearch         " Highlight all search results
 set incsearch        " Highlight as you type your search
@@ -37,6 +37,12 @@ nnoremap("N", "Nzzzv")
 nnoremap <C-m> I- <Esc>
 vnoremap <C-m> :norm I- <Esc>
 
+vnoremap <C-t> :s/\v[.;]\s*\r?$//e<CR>
+vnoremap <C-b> :s/\v^- \zs([^.:;]*[.:;])/**\1**/e<CR>
+" nnoremap j jzz
+" nnoremap k kzz
+
 vmap s S
 
+let g:VM_mouse_mappings = 1
 let g:surround_{char2nr('b')} = "**\r**"
