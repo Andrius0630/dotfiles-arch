@@ -8,6 +8,10 @@ function v
 	nvim "$argv"
 end
 
+function vim
+	nvim "$argv"
+end
+
 function git-update
     git add . && git commit -m "$argv" && git push
 end
