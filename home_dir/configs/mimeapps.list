@@ -22,6 +22,8 @@ application/json=org.gnome.gedit.desktop;
 text/x-chdr=org.gnome.gedit.desktop;
 image/heif=com.interversehq.qView.desktop;krita_heif.desktop;
 image/x-adobe-dng=com.interversehq.qView.desktop;
+text/markdown=nvim.desktop;
+application/pdf=librewolf.desktop;
 
 [Default Applications]
 x-scheme-handler/tonsite=org.telegram.desktop.desktop

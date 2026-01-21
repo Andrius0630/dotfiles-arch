@@ -39,5 +39,5 @@ xset r rate 250 30
 setxkbmap -layout us,ru,lt -option "grp:alt_shift_toggle"
 #polybar &
 exec bspwm
-#i3
+# exec i3
 #exec dwm

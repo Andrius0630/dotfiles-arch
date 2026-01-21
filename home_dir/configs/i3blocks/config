@@ -1,0 +1,74 @@
+# Global properties
+# separator=true
+# separator_block_width=15
+color=#C5C8C6
+
+[recording]
+command=$HOME/.config/i3blocks/scripts/recording-state.sh
+interval=once
+signal=10
+
+# [filesytem]
+# command=df -h / | awk '/\// {print "/: " $4}'
+# interval=30
+# color=#F0C674
+
+[disk]
+command=$HOME/.config/i3blocks/scripts/disk
+LABEL=/: 
+DIR=/
+ALERT_LOW=0
+interval=30
+
+[disk]
+command=$HOME/.config/i3blocks/scripts/disk
+LABEL=home: 
+# DIR=$HOME
+#ALERT_LOW=10
+interval=30
+
+[volume]
+command=$HOME/.config/i3blocks/scripts/volume
+LABEL=VOL 
+interval=once
+signal=10
+STEP=5%
+
+# [mic]
+# command=$HOME/.config/i3blocks/scripts/mic-state.sh
+# interval=once
+# signal=2
+
+[systemctl]
+command=$HOME/.config/i3blocks/scripts/systemctl
+interval=once
+markup=pango
+instance=smb
+
+[key_layout]
+command=$HOME/.config/i3blocks/scripts/key_layout
+label=
+interval=30
+
+[iface]
+command=$HOME/.config/i3blocks/scripts/iface
+LABEL=wlan0:
+#IFACE=wlan0
+#ADDRESS_FAMILY=inet6?
+color=#00FF00
+interval=10
+display_wifi_name=0
+
+[battery]
+command=$HOME/.config/i3blocks/scripts/battery
+interval=30
+LABEL=BAT 
+#LABEL=⚡
+#BAT_NUMBER=0
+
+[time]
+command=$HOME/.config/i3blocks/scripts/time
+interval=5
+STRFTIME_FORMAT=%d %A %H:%M
+TZONES=$DEFAULT_TZ
+TZ_LABELS=,

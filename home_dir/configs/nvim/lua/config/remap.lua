@@ -14,10 +14,10 @@ vim.keymap.set("v", "<C-t>", ":s/\\v[.;]\\s*\\r?$//e<CR>")
 
 vim.keymap.set("v", "<C-b>", ":s/\\v^- \\zs([^.:;]*[.:;])/**\\1**/e<CR>")
 
-vim.keymap.set("v", "s", "S")
+vim.keymap.set("v", "s", "S", { remap = true })
 
 vim.g.VM_mouse_mappings = 1
-vim.g["surround_" .. string.byte('b')] = "**\r**"
+-- vim.g["surround_" .. string.byte('b')] = "**\r**"
 
 -- Stay in visual mode while indenting
 vim.keymap.set("v", ">", ">gv")
