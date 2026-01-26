@@ -70,7 +70,7 @@ ZSH_THEME="bira"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 # source ~/.zsh_profile
 source <(fzf --zsh)
 
+source ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
@@ -129,4 +131,3 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles-arch/scripts:$PATH
 
 bindkey -s ^f "tmux-sessionizer.sh\n"
-
