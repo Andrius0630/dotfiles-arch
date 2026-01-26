@@ -1,0 +1,239 @@
+rm .zsh*
+rm .zcompdump
+cat .zshrc
+tmux-sessionizer
+cat .zshrc
+ll .local/bin
+tmux-sessionizer
+man zsh
+ghosty
+yay -S ghosty
+ghosty
+ls 
+ls -la
+sudo pacman -Syu
+sudo pacman -S alsa-utils
+sudo pacman -S alsa-utils base base-devel blueman bluez-utils efibootmgr 
+vim
+sudo pacman -S bspwm dunst fastfetch firefox git htop kitty nitrogen papirus-icon-theme pavucontrol polybar pulseaudio pulseaudio-bluetooth sxhkd ttf-font-awesome ttf-liberation ttf-roboto-mono-nerd xarchiver xorg-setxkbmap xorg-xrandr xorg xterm
+sudo pacman -S fish alsa-firmware
+chsh -s /usr/bin/fish
+reboot
+git clone https://aur.archlinux.org/yay-git.git
+cd yay-git/
+makepkg -si
+yay -S picom-git
+yay -S thunar
+yay -S rofi qview-git
+cd ..
+yay -S spotify-launcher
+yay -S papirus-icon-theme
+thunar
+startx
+sudo startx
+sudo pacman -S xf86-video-fbdev xorg-xinit
+startx
+reboot
+startx
+lsblk
+sudo mount /dev/sda2 /mnt
+ls
+ls /mnt
+sudo mount /dev/sda2 /mnt
+sudo mount /dev/sda1 /mnt
+ls /mnt
+sudo umount /dev/sda1
+shutdown
+shutdown -c
+sudo systemctl poweroff
+htop
+fastfetch
+vim .config/bspwm/
+vim .config/bspwm/bspwmrc
+vim .config/bspwm/bspwmrc
+rofi 
+rofi -show themre
+rofi -show theme-selector
+rofi --help
+rofi-theme-selector 
+rofi-theme-selector 
+rofi-theme-selector 
+chsh -s /usr/bin/fish
+startx
+sudo systemctl poweroff
+pwd
+set | grep LD
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/riscv
+set | grep LD
+ls
+./riscv32-unknown-elf-gdb
+cd ..
+ls
+ls -al
+ls /usr/lib/libpython3.12.so.1.0 
+set | grep LD
+LD_LIBRARY_PATH=~/riscv
+set | grep LD
+./riscv32-unknown-elf-gdb
+bin/riscv32-unknown-elf-gdb
+ls
+ldd bin/riscv32-unknown-elf-gdb
+ls
+set | grep LD
+pwd
+ls -al
+file /usr/lib/libpython3.12.so.1.0
+cd /usr/lib
+sudo ln -s libpython3.12.so.1.0 libpython3.8.so.1.0
+ls -al libpy*
+cd ~
+riscv/bin/riscv32-unknown-elf-gdb
+ls
+exit
+ls -la
+exit
+> asilas
+ls
+rm asilas 
+> asilas asilas2
+ls
+rm asilas 
+echo $((3+2/2))
+exit
+man test
+test --help
+test 
+help test 
+exit
+((3+1))
+echo ((3+1))
+echo $((3+1))
+echo $((3/1))
+echo $((3/2))
+help [[
+help {{
+help {
+help (
+help ((
+help (())
+man [[
+man bash
+help ,,
+man bash
+help parameter
+help shopt
+exit
+ls -la
+mvn compile
+help set
+exit
+source ~/.bashrc
+exit
+mvn clean javafx:run
+./mvnw clean javafx:run
+./mvnw clean javafx:run
+set | less
+v
+git-update-bash
+git-update-bash "Update"
+git-update
+v home_dir/dotfiles/.bashrc 
+git-update
+git-update
+v home_dir/dotfiles/.bashrc 
+git-update
+v home_dir/dotfiles/.bashrc 
+v home_dir/dotfiles/.bashrc 
+git-update
+git-update "Updated confs"
+man sh
+exit
+echo d
+man sh
+exit
+exit
+curl -L https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD
+ll
+ls
+ls -la
+curl -L https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD -o smb.conf
+curl -L https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD -o ./smb.conf
+curl -L https://git.samba.org/samba.git/?p=samba.git;a=blob_plain;f=examples/smb.conf.default;hb=HEAD -o ./smb.conf
+for f in *.HEIC; do heif-convert -q 90 "$f" "jpg/${f%.HEIC}.jpg"; done
+w3m delfi.lt
+w3m delfi.lt
+cd **
+fzf
+fzf
+cd //
+ll
+ls -
+ls -la
+echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days
+echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days
+echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+bash <(curl https://raw.githubusercontent.com/winapps-org/winapps/main/setup.sh)
+echo 'export PATH=/home/andrey/.local/bin:$PATH' >> ~/.bashrc && source ~/.bashrc
+winapps manual "C:\Program Files (x86)\HiP2P Client\P2PClient.exe"
+winapps manual P2PClient.exe
+winapps manual P2PClient.exe
+winapps --help
+winapps manual 
+.local/share/bottles/runners/soda-experimental_8.0/bin/wineconsole 
+selected=$(find ~/Tmp/ ~/dotfiles-arch/ -mindepth 1 -maxdepth 1 -type d | fzf)
+man source
+cat .bash_history
+cat .bash_logout
+cat .bash_profile
+v .zshrc
+cat .zsh_history_file
+cat .bash_history >> .zsh_history_file
+cat .zsh_history_file
+cd dotfiles-arch
+./install_configs.sh
+ll
+v automated_install.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+tmux
+tmux a
+tmux a
+tmux
+: 1769450593:0;# Clone Autosuggestions\
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions\
+\
+# Clone Syntax Highlighting\
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1769450703:0;v automated_install.sh
+: 1769450706:0;cd dotfiles-arch
+: 1769450707:0;v automated_install.sh
+: 1769450751:0;printenv 
+: 1769450869:0;fish
+: 1769451959:0;tmux-sessionizer.sh
+: 1769451969:0;echo $PATH
+: 1769451980:0;tmux
+: 1769451987:0;tmux a
+: 1769451992:0;v .zshrc
+: 1769452112:0;tmux-sessionizer.sh
+: 1769452115:0;tmux a
+: 1769452116:0;tmux-sessionizer.sh
+: 1769454853:0;v .zshrc
+: 1769454872:0;fastfetch
+: 1769454875:0;ip a
+: 1769454877:0;cd .config
+: 1769454881:0;su
+: 1769454892:0;sudo su --
+: 1769454900:0;sudo su
+: 1769454912:0;sudo -s
+: 1769454990:0;tmux-sessionizer.sh
+: 1769454995:0;ip a
+: 1769455000:0;git status
+: 1769455009:0;git add .

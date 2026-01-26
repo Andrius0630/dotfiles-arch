@@ -1,12 +1,14 @@
 #!/usr/bin/env sh
 
-chose=$(echo -e "Shutdown\nReboot\nLock" | rofi -dmenu)
+chose=$(printf "Shutdown\nReboot\nLock\nSleep" | rofi -dmenu)
 
 
 case "$chose" in
-    "Shutdown") poweroff
+    "Shutdown") systemctl poweroff
     ;;
-    "Reboot") reboot
+    "Reboot") systemctl reboot
+    ;;
+    "Sleep") systemctl sleep
     ;;
     "Lock") i3lock
     ;;
