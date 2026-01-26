@@ -237,3 +237,30 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 : 1769454995:0;ip a
 : 1769455000:0;git status
 : 1769455009:0;git add .
+: 1769455056:0;git commit -m "changes fish to zsh & added tmux-sessionizer with tmux-cht barebones"
+: 1769455059:0;git push
+: 1769455080:0;fastfetch
+: 1769455122:0;fastfetch --gen-config
+: 1769455134:0;tmux-sessionizer.sh
+: 1769455146:0;v fastfetch/config.jsonc 
+: 1769455151:0;fastfetch
+: 1769455557:0;echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days
+: 1769455584:0;v ~/dotfiles-arch/scripts/get_os_age.sh
+: 1769455607:0;ll ~/dotfiles-arch/scripts/get_os_age.sh
+: 1769455641:0;fastfetch
+: 1769455648:0;v fastfetch/config.jsonc 
+: 1769455653:0;ll ~/dotfiles-arch/scripts/get_os_age.sh
+: 1769455654:0;v fastfetch/config.jsonc 
+: 1769455660:0;v ~/dotfiles-arch/scripts/get_os_age.sh
+: 1769455669:0;fastfetch
+: 1769455676:0;~/dotfiles-arch/scripts/get_os_age.sh
+: 1769455695:0;v fastfetch/config.jsonc 
+: 1769455706:0;~/dotfiles-arch/scripts/get_os_age.sh
+: 1769455709:0;fastfetch
+: 1769455776:0;man fastfetch
+: 1769455820:0;fastfetch
+: 1769456152:0;tmux ls
+: 1769456155:0;fastfetch
+: 1769456158:0;cd dotfiles-arch
+: 1769456160:0;git status
+: 1769456163:0;git add .
