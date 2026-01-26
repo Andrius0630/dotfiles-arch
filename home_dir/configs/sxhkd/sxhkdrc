@@ -19,7 +19,7 @@ ctrl + Print
 super + c
 	code
 super + e
-	thunar
+	$HOME/dotfiles-arch/scripts/folder-menu-rofi.sh
 super + {shift + }l
     i3lock
 super + {shift + }p
