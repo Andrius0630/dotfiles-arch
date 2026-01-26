@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # source ~/.zsh_profile
 
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.zsh_history_file
+HISTFILE=~/.zsh_history
 HISTSIZE=100000
 SAVEHIST=100000
 unsetopt beep
