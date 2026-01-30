@@ -24,6 +24,7 @@ image/heif=com.interversehq.qView.desktop;krita_heif.desktop;
 image/x-adobe-dng=com.interversehq.qView.desktop;
 text/markdown=nvim.desktop;
 application/pdf=librewolf.desktop;
+application/vnd.microsoft.portable-executable=wine.desktop;
 
 [Default Applications]
 x-scheme-handler/tonsite=org.telegram.desktop.desktop

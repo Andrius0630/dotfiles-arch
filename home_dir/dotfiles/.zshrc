@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="bira"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -70,7 +70,7 @@ ZSH_THEME="bira"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,8 +105,6 @@ source $ZSH/oh-my-zsh.sh
 # source ~/.zsh_profile
 source <(fzf --zsh)
 
-source ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
@@ -131,3 +129,17 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles-arch/scripts:$PATH
 
 bindkey -s ^f "tmux-sessionizer.sh\n"
+
+# Create a lookup table for keys
+typeset -g -A key
+
+key[Home]="${terminfo[khome]}"
+key[End]="${terminfo[kend]}"
+key[Insert]="${terminfo[kich1]}"
+key[Delete]="${terminfo[kdch1]}"
+
+# Setup key accordingly
+[[ -n "${key[Home]}"   ]] && bindkey -- "${key[Home]}"   beginning-of-line
+[[ -n "${key[End]}"    ]] && bindkey -- "${key[End]}"    end-of-line
+[[ -n "${key[Insert]}" ]] && bindkey -- "${key[Insert]}" overwrite-mode
+[[ -n "${key[Delete]}" ]] && bindkey -- "${key[Delete]}" delete-char
