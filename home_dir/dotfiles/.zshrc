@@ -127,6 +127,7 @@ alias n='nvim'
 export PATH=$PATH:~/.cargo/bin/
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles-arch/scripts:$PATH
+export PATH=$PATH:~/.config/emacs/bin
 
 bindkey -s ^f "tmux-sessionizer.sh\n"
 
