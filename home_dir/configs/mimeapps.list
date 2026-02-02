@@ -1,5 +1,5 @@
 [Added Associations]
-application/x-shellscript=org.gnome.gedit.desktop;userapp-bash-5N9DY2.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;emacsclient.desktop;userapp-bash-5N9DY2.desktop;
 x-scheme-handler/tonsite=org.telegram.desktop.desktop;
 text/x-python=org.gnome.gedit.desktop;
 text/x-csrc=org.gnome.gedit.desktop;sublime_text.desktop;

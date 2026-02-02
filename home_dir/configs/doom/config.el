@@ -23,7 +23,7 @@
 ;;
 ;;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
 ;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
-;;
+(setq doom-font (font-spec :size 16))
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
 ;; refresh your font settings. If Emacs still can't find your font, it likely
@@ -67,23 +67,52 @@
 ;; - `map!' for binding new keys
 ;;
 
-; (after! evil
-;   (map! :v "J" :desc "Move selection down"  ":m '>+1<CR>gv=gv"
-;         :v "K" :desc "Move selection up"    ":m '<-2<CR>gv=gv"
-;         :n "J" :desc "Join lines"           "mzJ`z"
-;         :n "n" :desc "Next search"          "nzzzv"
-;         :n "N" :desc "Prev search"          "Nzzzv"
-;         :i "C-c" :desc "Exit insert"        [escape] ; Fixed syntax
-;         :n "<C-d>" (λ! (evil-scroll-down 0) (evil-scroll-line-to-center (line-number-at-pos)))
-;         :n "<C-u>" (λ! (evil-scroll-up 0) (evil-scroll-line-to-center (line-number-at-pos)))))))
+;; (after! evil
+;;   (map! :n "J" :desc "Join lines"           "mzJ`z"
+;;         :n "n" :desc "Next search"          "nzzzv"
+;;         :n "N" :desc "Prev search"          "Nzzzv"
+;;         :i "C-c" :desc "Exit insert"        [escape] ; Fixed syntax
 ;; ;; 4. Map C-c to Escape in insert mode
 ;; (map! :i "C-c" :desc "Exit insert mode" <escape>)
+;; (map! :leader :g )
+(map! :after evil-mode
+      :n "C-d" (cmd! (evil-scroll-down 0) (evil-scroll-line-to-center (line-number-at-pos)))
+      :n "C-u" (cmd! (evil-scroll-up 0) (evil-scroll-line-to-center (line-number-at-pos))))
 
-;; ;; 5. Make file executable
+(map! :nvie "C-c" [escape])
+
 (map! :leader
-      :desc "Make file executable" "x" (λ!! (shell-command (format "chmod +x %s" buffer-file-name))))
+      :desc "Make file executable" "x" (cmd! (shell-command (format "chmod +x %s" (buffer-file-name)))))
 
-(setq scroll-margin 8)                     ; scrolloff = 8
+(map! :n "J" (cmd! (evil-set-marker ?z)
+                   (evil-join (line-end-position) (line-end-position 2))
+                   (evil-goto-mark ?z)))
+
+(map! :nvie "C-S-c" #'kill-ring-save    ; Global Copy
+      :ni   "C-S-v" #'yank              ; Normal/Insert: Just Paste
+      :v    "C-S-v" "\"_dP")            ; Visual: Replace without overwriting clipboard
+
+(setq projectile-project-search-path '("~/Tmp/" "~/vu/" "~/dotfiles-arch/" "~/dotfiles-arch/home_dir/" ))
+
+(after! projectile
+  (setq projectile-known-projects
+        '("~/Tmp/"
+          "~/vu/"
+          "~/dotfiles-arch/"
+          "~/dotfiles-arch/home_dir/")))
+
+(setq projectile-enable-caching t  ; Don't re-scan every single time
+      projectile-indexing-method 'hybrid) ; Use native 'find' or 'fd' if available (much faster)
+
+(setq projectile-globally-ignored-directories '(".git" "node_modules" "target" "dist")
+      projectile-globally-ignored-files '(".DS_Store" "TAGS"))
+
+(map! :n "n" (cmd! (evil-ex-search-next) (evil-scroll-line-to-center (line-number-at-pos)) (evil-open-fold))
+      :n "N" (cmd! (evil-ex-search-previous) (evil-scroll-line-to-center (line-number-at-pos)) (evil-open-fold)))
+
+(setq confirm-kill-processes nil)
+
+(setq scroll-margin 8)
 (setq-default tab-width 4)
 ;; To get information about any of these functions/macros, move the cursor over
 ;; the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
