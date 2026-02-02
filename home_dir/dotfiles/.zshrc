@@ -130,6 +130,10 @@ export PATH=$HOME/dotfiles-arch/scripts:$PATH
 export PATH=$PATH:~/.config/emacs/bin
 
 bindkey -s ^f "tmux-sessionizer.sh\n"
+bindkey -s '\eh' "tmux-sessionizer.sh -s 0\n"
+bindkey -s '\et' "tmux-sessionizer.sh -s 1\n"
+bindkey -s '\en' "tmux-sessionizer.sh -s 2\n"
+bindkey -s '\es' "tmux-sessionizer.sh -s 3\n"
 
 # Create a lookup table for keys
 typeset -g -A key
