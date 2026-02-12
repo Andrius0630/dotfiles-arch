@@ -120,14 +120,14 @@ require("lazy").setup({
             require("mason").setup()
             require("mason-lspconfig").setup({
                 ensure_installed = {
-                    "pyright",        -- Python
+                    -- "pyright",        -- Python
                     "taplo",          -- TOML
                     "lua_ls",         -- Lua
                     "rust_analyzer",  -- Rust
                     "clangd",         -- C / C++
                     "jdtls",          -- Java
-                    "bashls",         -- Bash
-                    "dockerls",       -- Docker
+                    -- "bashls",         -- Bash
+                    -- "dockerls",       -- Docker
                     "arduino_language_server", -- Arduino
                     -- Arch is too new for cmake, need to install system package
                     -- "cmake",          -- CMake

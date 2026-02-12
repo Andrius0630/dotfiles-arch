@@ -123,11 +123,15 @@ alias ll='ls -lah'
 alias v='nvim'
 alias vim='nvim'
 alias n='nvim'
+alias docker='podman'
+alias :q=exit
 
 export PATH=$PATH:~/.cargo/bin/
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles-arch/scripts:$PATH
 export PATH=$PATH:~/.config/emacs/bin
+
+# bind "set completion-ignore-case on"
 
 bindkey -s ^f "tmux-sessionizer.sh\n"
 bindkey -s '\eh' "tmux-sessionizer.sh -s 0\n"
@@ -148,3 +152,15 @@ key[Delete]="${terminfo[kdch1]}"
 [[ -n "${key[End]}"    ]] && bindkey -- "${key[End]}"    end-of-line
 [[ -n "${key[Insert]}" ]] && bindkey -- "${key[Insert]}" overwrite-mode
 [[ -n "${key[Delete]}" ]] && bindkey -- "${key[Delete]}" delete-char
+
+# Bash history settings (~1GB)
+HISTSIZE=10000000
+HISTFILESIZE=10000000
+# shopt -s histappend
+# shopt -s cmdhist
+# Record each line as it gets issued (not just on session exit)
+PROMPT_COMMAND='history -a'
+# Avoid duplicates
+HISTCONTROL=ignoredups:erasedups
+# Add timestamp to history
+HISTTIMEFORMAT='%F %T '

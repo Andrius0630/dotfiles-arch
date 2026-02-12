@@ -17,7 +17,7 @@ font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+font pango:DejaVu Sans Mono 8
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -29,10 +29,17 @@ exec --no-startup-id dex --autostart --environment i3
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --always dbus-update-activation-environment --systemd DISPLAY I3SOCK XDG_CURRENT_DESKTOP=i3
+for_window [class="Nsxiv"] fullscreen enable
+for_window [class="mpv"] fullscreen enable
 
+exec "$HOME/.config/polybar/launch.sh"
+exec thunar --daemon
+default_border pixel 1
+default_floating_border pixel 1
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-# exec --no-startup-id nm-applet
+exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 # set $refresh_i3status killall -SIGUSR1 i3status
@@ -53,6 +60,7 @@ bindsym $mod+e exec thunar
 # Scripts and System
 # bindsym $mod+l exec i3lock
 # bindsym $mod+Shift+l exec i3lock
+bindsym $mod+Shift+e exec $HOME/dotfiles-arch/scripts/folder-menu-rofi.sh
 bindsym $mod+Shift+p exec $HOME/dotfiles-arch/scripts/power-menu.sh
 bindsym $mod+b exec $HOME/dotfiles-arch/scripts/bookmarks-rofi.sh
 
@@ -211,7 +219,7 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3blocks
-        position top
-}
+# bar {
+#         status_command i3blocks
+#         position top
+# }

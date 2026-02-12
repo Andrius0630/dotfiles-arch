@@ -9,6 +9,10 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias v='nvim'
 alias vim='nvim'
+alias docker='podman'
+alias :q=exit
+
+bind "set completion-ignore-case on"
 PS1='[\u@\h \W]\$ '
 export TERM=xterm-256color
 export PATH=$PATH:~/.cargo/bin/
