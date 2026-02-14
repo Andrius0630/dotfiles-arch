@@ -123,7 +123,7 @@ alias ll='ls -lah'
 alias v='nvim'
 alias vim='nvim'
 alias n='nvim'
-alias docker='podman'
+# alias docker='podman'
 alias :q=exit
 
 export PATH=$PATH:~/.cargo/bin/
