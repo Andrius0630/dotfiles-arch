@@ -123,13 +123,14 @@ alias ll='ls -lah'
 alias v='nvim'
 alias vim='nvim'
 alias n='nvim'
-alias docker='podman'
+# alias docker='podman'
 alias :q=exit
 
 export PATH=$PATH:~/.cargo/bin/
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles-arch/scripts:$PATH
 export PATH=$PATH:~/.config/emacs/bin
+export PATH=$PATH:~/go/bin
 
 # bind "set completion-ignore-case on"
 

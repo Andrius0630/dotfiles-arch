@@ -52,6 +52,19 @@ echo "deb https://repository.spotify.com stable non-free" | sudo tee /etc/apt/so
 
 sudo apt update && sudo apt install spotify-client
 
+cat << "EOF" > "~/.local/share/applications/spotify.desktop"
+[Desktop Entry]
+Name=Spotify
+GenericName=Music Player
+Comment=Listen to music using Spotify
+Icon=spotify-client
+Exec=spotify %U
+Terminal=false
+Type=Application
+Categories=Audio;Music;Player;AudioVideo;
+MimeType=x-scheme-handler/spotify;
+EOF
+
 # office
 ## Add GPG key
 mkdir -p -m 700 ~/.gnupg
