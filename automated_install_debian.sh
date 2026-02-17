@@ -6,10 +6,18 @@ echo "ATTENTION: Ensure your \"/etc/apt/sources.list\" includes \"main contrib n
 sudo apt update && sudo apt install -y git wget curl build-essential
 
 # additional packages
-sudo apt install -y alsa-utils arc-theme blueman bluez brightnessctl dunst engrampa fastfetch fd-find ffmpegthumbnailer flameshot fonts-font-awesome fonts-liberation fzf l3afpad gvfs gvfs-backends htop i3lock gvfs-fuse kitty krita lxappearance mpv ncdu neovim network-manager nitrogen openfortivpn papirus-icon-theme pavucontrol picom polybar pulseaudio python3 qbittorrent rofi rsync rustup samba shellcheck sshfs thunar thunar-archive-plugin thunar-volman tmux tree tumbler unrar usbmuxd xclip xorg zip zsh ripgrep emacs cmake libtool-bin clang-format pandoc shfmt i3 psmisc extrepo libpam0g-dev libxcb-xkb-dev clangd npm nodejs yt-dlp nsxiv r-base r-base-dev network-manager-openvpn network-manager-openconnect network-manager-strongswan network-manager-l2tp network-manager-applet network-manager-openconncet-gnome
+sudo apt install -y alsa-utils arc-theme blueman bluez brightnessctl dunst engrampa fastfetch fd-find ffmpegthumbnailer flameshot fonts-font-awesome fonts-liberation fzf l3afpad gvfs gvfs-backends htop i3lock gvfs-fuse kitty krita lxappearance mpv ncdu network-manager nitrogen openfortivpn papirus-icon-theme pavucontrol picom polybar pulseaudio python3 qbittorrent rofi rsync rustup samba shellcheck sshfs thunar thunar-archive-plugin thunar-volman tmux tree tumbler unrar usbmuxd xclip xorg zip zsh ripgrep emacs cmake libtool-bin clang-format pandoc shfmt i3 psmisc extrepo libpam0g-dev libxcb-xkb-dev clangd npm nodejs yt-dlp nsxiv r-base r-base-dev network-manager-openvpn network-manager-openconnect network-manager-strongswan network-manager-l2tp network-manager-applet network-manager-openconncet-gnome
 
 # libreworlf
 sudo extrepo enable librewolf && sudo extrepo update librewolf && sudo apt update && sudo apt install librewolf -y
+
+# neovim
+sudo apt-get install ninja-build gettext cmake curl build-essential git
+git clone https://github.com/neovim/neovim
+cd neovim
+git checkout stable
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
 
 # services
 sudo systemctl enable --now NetworkManager
