@@ -120,15 +120,23 @@
   (let ((evil-this-register ?_))
     (call-interactively 'evil-delete-backward-char)))
 
-(setq projectile-project-search-path '("~/Tmp/" "~/vu/" "~/dotfiles-arch/" "~/dotfiles-arch/home_dir/" ))
+(setq projectile-project-search-path '("~/Tmp/" 
+                                       "~/vu/"
+                                       "~/vu/cyberlab"
+                                       "~/vu/data_visualization/"
+                                       "~/vu/rust/"
+                                       "~/vu/web_dev"
+                                       "~/dotfiles-arch/"
+                                       "~/dotfiles-arch/home_dir/"))
 
-(after! projectile
-  (setq projectile-known-projects
-        '("~/dotfiles-arch/"
-          "~/dotfiles-arch/home_dir/"
-          "~/vu/"
-          "~/Tmp/"
-          "~/Documents/Obsidian/Personal/")))
+(after! corfu
+  (setq corfu-popupinfo-delay '(0.5 . 0.2)
+        corfu-popupinfo-max-width 120
+        corfu-popupinfo-min-width 120
+        corfu-popupinfo-max-height 80)
+  (map! :map corfu-map
+        "M-n" #'corfu-popupinfo-scroll-up
+        "M-p" #'corfu-popupinfo-scroll-down))
 
 (setq projectile-enable-caching t  ; Don't re-scan every single time
       projectile-indexing-method 'hybrid) ; Use native 'find' or 'fd' if available (much faster)
@@ -139,6 +147,7 @@
 (map! :n "n" (cmd! (evil-ex-search-next) (evil-scroll-line-to-center (line-number-at-pos)) (evil-open-fold))
       :n "N" (cmd! (evil-ex-search-previous) (evil-scroll-line-to-center (line-number-at-pos)) (evil-open-fold)))
 
+(map! :v "C-b" (cmd! (execute-kbd-macro "S*")))
 (setq confirm-kill-processes nil)
 
 (setq scroll-margin 8)
