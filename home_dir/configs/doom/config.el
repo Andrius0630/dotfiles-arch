@@ -33,6 +33,7 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 (setq doom-theme 'doom-one)
+;; (setq doom-theme 'vscode-dark-plus)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -42,7 +43,17 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
 
+(setq treesit-language-source-alist
+      '((rust "https://github.com/tree-sitter/tree-sitter-rust" "v0.21.2")))
+(setq treesit-extra-load-path '("~/.config/emacs/.local/etc/tree-sitter"))
 
+(setq treesit-font-lock-level 4)
+(after! lsp-rust
+  (setq lsp-rust-analyzer-display-chaining-hints t
+        lsp-rust-analyzer-display-parameter-hints t
+        lsp-rust-analyzer-display-closure-return-type-hints t)
+  ;; Use Clippy instead of Cargo Check for better "Quick Fix" suggestions
+  (setq lsp-rust-analyzer-cargo-watch-command "clippy"))
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;
@@ -92,14 +103,32 @@
       :ni   "C-S-v" #'yank              ; Normal/Insert: Just Paste
       :v    "C-S-v" "\"_dP")            ; Visual: Replace without overwriting clipboard
 
+(after! evil
+  (define-key evil-normal-state-map (kbd "x") 'evil-delete-char-to-black-hole)
+  (define-key evil-visual-state-map (kbd "x") 'evil-delete-char-to-black-hole)
+  (define-key evil-normal-state-map (kbd "X") 'evil-delete-backward-char-to-black-hole))
+
+(defun evil-delete-char-to-black-hole ()
+  "Delete character without affecting clipboard."
+  (interactive)
+  (let ((evil-this-register ?_))
+    (call-interactively 'evil-delete-char)))
+
+(defun evil-delete-backward-char-to-black-hole ()
+  "Delete character backward without affecting clipboard."
+  (interactive)
+  (let ((evil-this-register ?_))
+    (call-interactively 'evil-delete-backward-char)))
+
 (setq projectile-project-search-path '("~/Tmp/" "~/vu/" "~/dotfiles-arch/" "~/dotfiles-arch/home_dir/" ))
 
 (after! projectile
   (setq projectile-known-projects
-        '("~/Tmp/"
+        '("~/dotfiles-arch/"
+          "~/dotfiles-arch/home_dir/"
           "~/vu/"
-          "~/dotfiles-arch/"
-          "~/dotfiles-arch/home_dir/")))
+          "~/Tmp/"
+          "~/Documents/Obsidian/Personal/")))
 
 (setq projectile-enable-caching t  ; Don't re-scan every single time
       projectile-indexing-method 'hybrid) ; Use native 'find' or 'fd' if available (much faster)

@@ -1,43 +1,42 @@
 #!/usr/bin/env bash
 
-folder=$(echo "home tmp downloads dotfiles-arch documents pictures videos sync mnt vu trash" | tr " " "\n" | rofi -dmenu)
-
+folder=$(echo "home tmp downloads dotfiles-arch documents pictures videos sync mnt vu trash" | tr " " "\n" | rofi -dmenu -i)
 
 case "$folder" in
-    "home")
-        thunar "$HOME"
+"home")
+    thunar "$HOME"
     ;;
-    "tmp")
-        thunar "$HOME/Tmp"
+"tmp")
+    thunar "$HOME/Tmp"
     ;;
-    "downloads")
-        thunar "$HOME/Downloads"
+"downloads")
+    thunar "$HOME/Downloads"
     ;;
-    "documents")
-        thunar "$HOME/Documents"
+"documents")
+    thunar "$HOME/Documents"
     ;;
-    "pictures")
-        thunar "$HOME/Pictures"
+"pictures")
+    thunar "$HOME/Pictures"
     ;;
-    "videos")
-        thunar "$HOME/Videos"
+"videos")
+    thunar "$HOME/Videos"
     ;;
-    "sync")
-        thunar "$HOME/Sync"
+"sync")
+    thunar "$HOME/Sync"
     ;;
-    "trash")
-        thunar "trash:///"
+"trash")
+    thunar "trash:///"
     ;;
-    "mnt")
-        thunar "/mnt/"
+"mnt")
+    thunar "/mnt/"
     ;;
-    "dotfiles-arch")
-       thunar "$HOME/dotfiles-arch" 
+"dotfiles-arch")
+    thunar "$HOME/dotfiles-arch"
     ;;
-    "vu")
-       thunar "$HOME/vu" 
+"vu")
+    thunar "$HOME/vu"
     ;;
-    *) exit 1
+*)
+    exit 1
     ;;
 esac
-

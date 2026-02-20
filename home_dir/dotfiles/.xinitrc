@@ -26,7 +26,7 @@ if [ -f "$usermodmap" ]; then
 fi
 
 
-$HOME/dotfiles-arch/scripts/update-monitor.sh
+# $HOME/dotfiles-arch/scripts/update-monitor.sh
 
 xset r rate 160 30
 setsid -f dunst
@@ -38,6 +38,10 @@ nitrogen --restore
 xset r rate 160 30
 setxkbmap -layout us,ru,lt -option "grp:alt_shift_toggle"
 #polybar &
-exec bspwm
-# exec i3
+# exec bspwm
+# Update dbus with the environment variables it needs
+dbus-update-activation-environment --systemd DISPLAY XAUTHORITY
+systemctl --user import-environment DISPLAY XAUTHORITY
+systemctl --user restart xdg-desktop-portal-gtk
+exec i3
 #exec dwm

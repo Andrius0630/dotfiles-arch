@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+mkdir -p ~/Tmp/Share
+
 sudo cat << "EOF" > "/etc/samba/smb.conf"
 # This is the main Samba configuration file. You should read the
 # smb.conf(5) manual page in order to understand the options listed
@@ -157,7 +159,7 @@ sudo cat << "EOF" > "/etc/samba/smb.conf"
 # This one is useful for people to share files
 [Share]
    comment = Share
-   path = /home/andrey/Tmp/
+   path = /home/andrey/Tmp/Share
    read only = no
    writable = yes
    browsable = yes
@@ -234,4 +236,7 @@ sudo cat << "EOF" > "/etc/samba/smb.conf"
 ;   create mask = 0765
 EOF
 
-sudo smbpasswd -a andrey && sudo systemctl enable --now smb wsdd
+# arch
+sudo smbpasswd -a andrey && sudo systemctl enable --now smbd wsdd2
+# debian
+# sudo systemctl enable --now smbd wsdd2
