@@ -28,7 +28,11 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# lock by blurring the screen:
+# bindsym $mod+l exec --no-startup-id ~/dotfiles-arch/scripts/i3lock-blur.sh
+# lock in case after sleep
+exec --no-startup-id xss-lock -l ~/dotfiles-arch/scripts/i3lock-blur.sh
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --always dbus-update-activation-environment --systemd DISPLAY I3SOCK XDG_CURRENT_DESKTOP=i3
 for_window [class="Nsxiv"] fullscreen enable
 for_window [class="mpv"] fullscreen enable

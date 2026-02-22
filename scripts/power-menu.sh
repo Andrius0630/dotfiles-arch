@@ -10,7 +10,7 @@ case "$chose" in
     ;;
     "Sleep") systemctl sleep
     ;;
-    "Lock") i3lock
+    "Lock") $HOME/dotfiles-arch/scripts/i3lock-blur.sh
     ;;
     *) exit 1
     ;;
