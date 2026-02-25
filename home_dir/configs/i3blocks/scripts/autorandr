@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Define an associative array:
+typeset -A mode
+# And its content:
+mode=(
+  [Home]="autorandr --load homebak"
+  [Laptop]="autorandr --load laptop"
+  [Focus]="autorandr --load focus1screen"
+  [Presentation]="autorandr --load dualprez"
+  [4screens]="autorandr --load 4screens"
+  [Cancel]=""
+)
+
+mode_nrows=${#mode[@]}
+
+selected="$(printf '%s\n' "${!mode[@]}" | sort | rofi -dmenu -p "Monitor setup" -i -lines 2)"
+i3-msg -q "exec --no-startup-id ${mode[${selected}]}"

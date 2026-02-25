@@ -227,3 +227,4 @@ bindsym $mod+r mode "resize"
 #         status_command i3blocks
 #         position top
 # }
+

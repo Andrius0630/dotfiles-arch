@@ -1,0 +1,25 @@
+#!/bin/bash
+
+source ~/.borg.env
+
+# If older than:
+BACKUP_TIME_ALERT=$(date -d "-3days" +%s)
+
+# Retrieve from cache
+LAST_BACKUP_TIME=$(cat ~/.config/i3/scripts/.last_backup)
+
+# Retrieve the info from borg server:
+LAST_BACKUP=$(borg list --json --last 1 ssh://borgbackup@helios64:22/~/backups/daimadoshi | jq -r ".archives[0].time")
+
+if [[ "$LAST_BACKUP" ]]; then
+  LAST_BACKUP_TIME=$(date -d "$LAST_BACKUP" +%s)
+fi
+
+# Keep in cache the date:
+echo "$LAST_BACKUP_TIME" > ~/.config/i3/scripts/.last_backup
+
+if [[ $LAST_BACKUP_TIME < $BACKUP_TIME_ALERT ]]; then
+  echo "= make a backups ="
+else
+  echo ""
+fi
