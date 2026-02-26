@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Give i3 a moment to recognize the new display layout
+sleep 1
+
+# Get a list of all workspace names and move them to the primary output
+for ws in $(i3-msg -t get_workspaces | jq -r '.[] | .name'); do
+    i3-msg "workspace $ws; move workspace to output primary"
+done
+
+# Return focus to the first workspace or wherever you prefer
+i3-msg "workspace 1"
