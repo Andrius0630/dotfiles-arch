@@ -10,3 +10,5 @@ done
 
 # Return focus to the first workspace or wherever you prefer
 i3-msg "workspace 1"
+
+xset r rate 160 30
