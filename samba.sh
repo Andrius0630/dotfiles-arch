@@ -237,6 +237,6 @@ sudo cat << "EOF" > "/etc/samba/smb.conf"
 EOF
 
 # arch
-sudo smbpasswd -a andrey && sudo systemctl enable --now smbd wsdd2
+sudo smbpasswd -a andrey && sudo systemctl enable --now smb wsdd
 # debian
 # sudo systemctl enable --now smbd wsdd2
