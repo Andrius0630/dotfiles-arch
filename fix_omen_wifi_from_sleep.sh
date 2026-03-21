@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo tee "/usr/lib/systemd/system-sleep/iwlwifi-reset" << "EOF"
-#!/bin/sh
+#!/usr/bin/env sh
 case $1 in
   pre)
     echo "Unloading iwlwifi to prevent crash..."
