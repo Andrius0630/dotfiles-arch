@@ -22,5 +22,5 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 git clone --depth 1 https://github.com/marlonrichert/zsh-autocomplete ~/.oh-my-zsh/custom/plugins/zsh-autocomplete
 
 
-yay -S cataclysm-dda-tiles wireguard-tools networkmanager-fortisslvpn networkmanager-l2tp networkmanager-openconnect
+yay -S veracrypt cataclysm-dda-tiles wireguard-tools networkmanager-fortisslvpn networkmanager-l2tp networkmanager-openconnect
 
