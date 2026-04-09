@@ -150,13 +150,59 @@
 (map! :v "C-b" (cmd! (execute-kbd-macro "S*")))
 (setq confirm-kill-processes nil)
 
+(setq org-download-method 'attach) ; Uses Org's built-in attachment system
+(setq org-download-image-dir "./images") ; Or any path you prefer
+(setq org-download-heading-lvl nil)
+
 (setq scroll-margin 8)
 (setq-default tab-width 4)
-;; To get information about any of these functions/macros, move the cursor over
-;; the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
-;; This will open documentation for it, including demos of how they are used.
-;; Alternatively, use `C-h o' to look up a symbol (functions, variables, faces,
-;; etc).
-;;
-;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
-;; they are implemented.
+
+(defun efs/presentation-setup ()
+  ;; Hide the mode line
+  ;; (hide-mode-line-mode 1)
+
+  ;; Display images inline
+  ;; (org-display-inline-images) ;; Can also use org-startup-with-inline-images
+
+  ;; Scale the text.  The next line is for basic scaling:
+  ;; (setq text-scale-mode-amount 1)
+  ;; (text-scale-mode 1))
+
+  ;; This option is more advanced, allows you to scale other faces too
+  ;; (setq-local face-remapping-alist '((default (:height 2.0) variable-pitch)
+  ;;                                    (org-verbatim (:height 1.75) org-verbatim)
+  ;;                                    (org-block (:height 1.25) org-block))))
+
+  (defun efs/presentation-end ()
+    ;; Show the mode line again
+    (hide-mode-line-mode 0)
+    (setq-local visual-fill-column-width 110) ; Increase this number for more width
+    (setq-local display-line-numbers nil)    ; Disable line numbers to save space
+    (org-display-inline-images)
+    (text-scale-mode 1)
+
+    ;; Turn off text scale mode (or use the next line if you didn't use text-scale-mode)
+    ;; (text-scale-mode 0))
+
+    ;; If you use face-remapping-alist, this clears the scaling:
+    (setq-local face-remapping-alist '((default variable-pitch default))))
+
+  (use-package org-tree-slide
+    :hook ((org-tree-slide-play . efs/presentation-setup)
+           (org-tree-slide-stop . efs/presentation-end))
+    :custom
+    (org-tree-slide-slide-in-effect t)
+    (org-tree-slide-activate-message "Presentation started!")
+    (org-tree-slide-deactivate-message "Presentation finished!")
+    (org-tree-slide-header t)
+    (org-tree-slide-breadcrumbs " > ")
+    (org-image-actual-width t))
+
+  ;; To get information about any of these functions/macros, move the cursor over
+  ;; the highlighted symbol at press 'K' (non-evil users must press 'C-c c k').
+  ;; This will open documentation for it, including demos of how they are used.
+  ;; Alternatively, use `C-h o' to look up a symbol (functions, variables, faces,
+  ;; etc).
+  ;;
+  ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
+  ;; they are implemented.
