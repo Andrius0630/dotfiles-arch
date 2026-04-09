@@ -1,0 +1,12 @@
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+
+[Plugins]
+disabledPlugins=kerfuffle_libzip
+
+[Viewer]
+StatusBar=Disabled

@@ -1,0 +1,29 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd'>
+<Menu>
+ <Menu>
+  <Name>Games</Name>
+  <Exclude>
+   <Filename>Door Kickers.desktop</Filename>
+   <Filename>Subnautica.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Arcade</Menuname>
+   <Menuname>Board</Menuname>
+   <Menuname>Card</Menuname>
+   <Menuname>Kidsgames</Menuname>
+   <Menuname>Logic</Menuname>
+   <Menuname>TacticStrategy</Menuname>
+   <Merge type="files"/>
+   <Filename>org.cataclysmdda.CataclysmDDA.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>Door Kickers.desktop</Filename>
+   <Filename>Subnautica.desktop</Filename>
+  </Include>
+ </Menu>
+</Menu>

@@ -1,0 +1,33 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Tmp/llm agent design patterns 2.png
+File10[$e]=$HOME/Tmp/destytuvas/studentu_tvarkarastis.png
+File2[$e]=$HOME/Tmp/2026-01-18_10-15.png
+File3[$e]=$HOME/Tmp/2026-01-18_10-17.png
+File4[$e]=$HOME/Tmp/2026-01-18_10-26.png
+File5[$e]=$HOME/Tmp/2026-01-18_10-29.png
+File6[$e]=$HOME/Tmp/2026-01-24_11-43.png
+File7[$e]=smb://truenas.local/Andrius/Career/id_card/face.jpg
+File8[$e]=smb://truenas.local/Andrius/Career/id_card/back.jpg
+File9[$e]=$HOME/Tmp/mainframe/2026-03-16_22-56.png
+Name1[$e]=llm agent design patterns 2.png
+Name10[$e]=studentu_tvarkarastis.png
+Name2[$e]=2026-01-18_10-15.png
+Name3[$e]=2026-01-18_10-17.png
+Name4[$e]=2026-01-18_10-26.png
+Name5[$e]=2026-01-18_10-29.png
+Name6[$e]=2026-01-24_11-43.png
+Name7[$e]=face.jpg
+Name8[$e]=back.jpg
+Name9[$e]=2026-03-16_22-56.png
+
+[SideBar]
+InformationSplitterSizes=220,255
+IsVisible ViewMode=true
+SideBarSplitterSizes=227,1692

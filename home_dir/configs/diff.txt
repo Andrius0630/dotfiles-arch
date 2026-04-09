@@ -1,0 +1,77 @@
+1a2
+> MiddleButton;NoModifier=org.kde.paste
+8d8
+< ItemGeometries-0x0=
+11c11
+< activityId=e64425fe-cce1-4503-ba90-f11a1f473192
+---
+> activityId=
+19,22d18
+< [Containments][1][ConfigDialog]
+< DialogHeight=630
+< DialogWidth=810
+< 
+37c33
+< popupHeight=451
+---
+> popupHeight=400
+40,48d35
+< [Containments][2][Applets][21][Configuration][Appearance]
+< dateFormat=isoDate
+< fontWeight=400
+< use24hFormat=2
+< 
+< [Containments][2][Applets][21][Configuration][ConfigDialog]
+< DialogHeight=630
+< DialogWidth=810
+< 
+61,64d47
+< [Containments][2][Applets][3][Configuration][ConfigDialog]
+< DialogHeight=630
+< DialogWidth=810
+< 
+80c63
+< launchers=applications:org.kde.dolphin.desktop,preferred://browser,applications:org.kde.konsole.desktop,applications:code.desktop,applications:spotify-launcher.desktop,applications:org.mozilla.Thunderbird.desktop
+---
+> launchers=preferred://filemanager,applications:org.kde.konsole.desktop,preferred://browser
+124,127d106
+< [Containments][2][Applets][7][Applets][15][Configuration][General]
+< allDevices=true
+< removableDevices=false
+< 
+151d129
+< showWindInTooltip=false
+170,173d147
+< plugin=org.kde.plasma.battery
+< 
+< [Containments][2][Applets][7][Applets][24]
+< immutability=1
+176c150
+< [Containments][2][Applets][7][Applets][26]
+---
+> [Containments][2][Applets][7][Applets][24]
+178c152
+< plugin=org.kde.plasma.mediacontroller
+---
+> plugin=org.kde.plasma.battery
+188,191d161
+< [Containments][2][Applets][7][ConfigDialog]
+< DialogHeight=630
+< DialogWidth=810
+< 
+199,211d168
+< [Containments][25]
+< activityId=e64425fe-cce1-4503-ba90-f11a1f473192
+< formfactor=0
+< immutability=1
+< lastScreen=1
+< location=0
+< plugin=org.kde.plasma.folder
+< wallpaperplugin=org.kde.image
+< 
+< [Containments][25][ConfigDialog]
+< DialogHeight=630
+< DialogWidth=810
+< 
+214d170
+< screenMapping=desktop:/user,0,e64425fe-cce1-4503-ba90-f11a1f473192

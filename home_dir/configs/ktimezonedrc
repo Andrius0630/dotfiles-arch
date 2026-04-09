@@ -1,0 +1,4 @@
+[TimeZones]
+LocalZone=Europe/Vilnius
+ZoneinfoDir=/usr/share/zoneinfo
+Zonetab=/usr/share/zoneinfo/zone.tab

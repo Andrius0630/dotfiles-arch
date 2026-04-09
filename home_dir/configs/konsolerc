@@ -1,0 +1,11 @@
+MenuBar=Disabled
+
+[General]
+ConfigVersion=1
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+CloseAllTabs=true
+
+[UiSettings]
+ColorScheme=

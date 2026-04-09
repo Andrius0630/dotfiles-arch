@@ -1,0 +1,9 @@
+[Daemon]
+Autolock=false
+Timeout=0
+
+[Greeter][LnF][General]
+showMediaControls=false
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/andrey/Pictures/wallpaper/1920x1080.png

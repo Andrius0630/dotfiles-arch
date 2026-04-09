@@ -1,0 +1,17 @@
+[Keyboard]
+RepeatDelay=160
+RepeatRate=30
+
+[Libinput][1739][52759][SYNA32A5:00 06CB:CE17 Mouse]
+PointerAccelerationProfile=1
+ScrollFactor=2
+
+[Libinput][1739][52759][SYNA32A5:00 06CB:CE17 Touchpad]
+Enabled=true
+NaturalScroll=true
+
+[Libinput][5426][110][Razer Razer DeathAdder Essential]
+PointerAccelerationProfile=1
+
+[Mouse]
+X11LibInputXAccelProfileFlat=true

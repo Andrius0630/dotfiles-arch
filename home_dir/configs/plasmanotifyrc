@@ -1,0 +1,11 @@
+[Applications][discord]
+Seen=true
+
+[Applications][librewolf]
+Seen=true
+
+[Applications][org.mozilla.Thunderbird]
+Seen=true
+
+[DoNotDisturb]
+WhenScreensMirrored=false
