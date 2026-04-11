@@ -14,7 +14,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.35,
+                "brightness": 0.5,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
@@ -64,6 +64,7 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
                     "height": 1080,
                     "refreshRate": 74986,
@@ -288,7 +289,7 @@
                             "y": 0
                         },
                         "priority": 2,
-                        "replicationSource": ""
+                        "replicationSource": "0f352b0a-3a53-4d41-b3fd-aa32e90815e1"
                     }
                 ]
             },

@@ -24,7 +24,7 @@ DialogWidth=810
 [Containments][1][General]
 changedPositions={"desktop:/rig_docs":["1920x1080","0","0"]}
 lastResolution=1920x1080
-positions={"1920x1080":["1","17","desktop:/unix.html","0","1","desktop:/discord-backup-codes.png","0","2","desktop:/rig_docs","0","0"],"2048x1152":["1","18"]}
+positions={"1920x1080":["1","17","desktop:/unix.html","0","1","desktop:/rig_docs","0","0"],"2048x1152":["1","18"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
@@ -225,4 +225,4 @@ SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/unix.html,0,,desktop:/rig_docs,0,,desktop:/111.txt,0,21644c0e-64fa-4c79-b770-8cfe07d61151,desktop:/discord-backup-codes.png,0,
+screenMapping=desktop:/rig_docs,0,,desktop:/unix.html,0,,desktop:/111.txt,0,21644c0e-64fa-4c79-b770-8cfe07d61151
