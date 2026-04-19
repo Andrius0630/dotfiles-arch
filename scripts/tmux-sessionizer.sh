@@ -3,7 +3,7 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find ~/ ~/Tmp/ ~/Tmp/containers/ ~/vu/ ~/vu/cyberlab ~/vu/rust ~/dotfiles-arch/ ~/dotfiles-arch/home_dir/ -mindepth 1 -maxdepth 1 -type d | fzf)
+    selected=$(find ~/Tmp/ ~/Tmp/containers/ ~/vu/ ~/vu/LS26 ~/vu/unix ~/vu/web_dev ~/vu/cyberlab ~/vu/rust ~/dotfiles-arch/ ~/dotfiles-arch/home_dir/ -mindepth 1 -maxdepth 1 \( -type d -o -type l \) | fzf)
 fi
 
 if [[ -z $selected ]]; then

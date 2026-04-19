@@ -26,4 +26,65 @@
    <Filename>Subnautica.desktop</Filename>
   </Include>
  </Menu>
+ <Menu>
+  <Name>System</Name>
+  <Include/>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>ScreenSavers</Menuname>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>avahi-discover.desktop</Filename>
+   <Filename>btop.desktop</Filename>
+   <Filename>org.kde.dolphin.desktop</Filename>
+   <Filename>lstopo.desktop</Filename>
+   <Filename>htop.desktop</Filename>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+   <Filename>kitty.desktop</Filename>
+   <Filename>org.kde.konsole.desktop</Filename>
+   <Filename>kvantummanager.desktop</Filename>
+   <Filename>cups.desktop</Filename>
+   <Filename>org.kde.kmenuedit.desktop</Filename>
+   <Filename>jconsole-java21-openjdk.desktop</Filename>
+   <Filename>jshell-java21-openjdk.desktop</Filename>
+   <Filename>jconsole-java-openjdk.desktop</Filename>
+   <Filename>jshell-java-openjdk.desktop</Filename>
+   <Filename>virtualbox.desktop</Filename>
+   <Filename>system-config-printer.desktop</Filename>
+   <Filename>org.kde.plasma-systemmonitor.desktop</Filename>
+   <Filename>systemsettings.desktop</Filename>
+   <Filename>uxterm.desktop</Filename>
+   <Filename>veracrypt.desktop</Filename>
+   <Filename>org.pulseaudio.pavucontrol.desktop</Filename>
+   <Filename>xterm.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>NetBeans.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Development</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Translation</Menuname>
+   <Menuname>Web Development</Menuname>
+   <Merge type="files"/>
+   <Filename>cmake-gui.desktop</Filename>
+   <Filename>emacsclient.desktop</Filename>
+   <Filename>emacs.desktop</Filename>
+   <Filename>org.kde.kate.desktop</Filename>
+   <Filename>org.gnome.Meld.desktop</Filename>
+   <Filename>assistant.desktop</Filename>
+   <Filename>qdbusviewer.desktop</Filename>
+   <Filename>linguist.desktop</Filename>
+   <Filename>designer.desktop</Filename>
+   <Filename>code.desktop</Filename>
+   <Filename>NetBeans.desktop</Filename>
+  </Layout>
+  <Include>
+   <Filename>NetBeans.desktop</Filename>
+  </Include>
+ </Menu>
 </Menu>

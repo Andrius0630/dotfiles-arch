@@ -8,6 +8,7 @@ RightButton;NoModifier=org.kde.contextmenu
 [Containments][1]
 ItemGeometries-1920x1080=
 ItemGeometries-2048x1152=
+ItemGeometries-3072x1728=
 ItemGeometriesHorizontal=
 activityId=
 formfactor=0
@@ -22,13 +23,13 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][1][General]
-changedPositions={"desktop:/rig_docs":["1920x1080","0","0"]}
+changedPositions={"desktop:/rig_docs":["1920x1080,3413x1920,3072x1728,3840x2160,2259x1271,1422x800,2560x1440","0","0"]}
 lastResolution=1920x1080
-positions={"1920x1080":["1","17","desktop:/unix.html","0","1","desktop:/rig_docs","0","0"],"2048x1152":["1","18"]}
+positions={"1422x800":["1","13","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/rig_docs","0","0","desktop:/unix.html","0","1","desktop:/2026-04-12_19-52.png","0","2","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/backup.sh","0","3","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7"],"1920x1080":["1","17","desktop:/2026-04-18_11-52.png","0","1","desktop:/mainframe.txt","0","2","desktop:/rig_docs","0","0"],"2048x1152":["1","18"],"2259x1271":["1","20","desktop:/rig_docs","0","0","desktop:/unix.html","0","1","desktop:/2026-04-12_19-52.png","0","2"],"2560x1440":["1","23","desktop:/backup.sh","0","3","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/unix.html","0","1","desktop:/rig_docs","0","0","desktop:/2026-04-12_19-52.png","0","2"],"3072x1728":["1","28","desktop:/rig_docs","0","0"],"3413x1920":["1","31","desktop:/backup.sh","0","3","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/unix.html","0","1","desktop:/rig_docs","0","0","desktop:/2026-04-12_19-52.png","0","2"],"3840x2160":["1","35","desktop:/rig_docs","0","0","desktop:/2026-04-12_19-52.png","0","2","desktop:/unix.html","0","1"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/andrey/Pictures/wallpaper/1920x1080.png
+Image=file:///home/andrey/Pictures/wallpaper/5120x2880.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -223,6 +224,15 @@ DialogWidth=810
 Image=file:///home/andrey/Pictures/wallpaper/1920x1080.png
 SlidePaths=/usr/share/wallpapers/
 
+[Containments][26]
+activityId=
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/rig_docs,0,,desktop:/unix.html,0,,desktop:/111.txt,0,21644c0e-64fa-4c79-b770-8cfe07d61151
+screenMapping=desktop:/mainframe.txt,0,,desktop:/111.txt,0,21644c0e-64fa-4c79-b770-8cfe07d61151,desktop:/rig_docs,0,,desktop:/2026-04-18_11-52.png,0,

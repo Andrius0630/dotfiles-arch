@@ -120,9 +120,11 @@ compinit
 # End of lines added by compinstall
 
 alias ll='ls -lah'
+alias l='ls -lah'
 alias v='nvim'
 alias vim='nvim'
 alias n='nvim'
+alias sl='sl -le'
 # alias docker='podman'
 alias :q=exit
 
@@ -165,3 +167,5 @@ PROMPT_COMMAND='history -a'
 HISTCONTROL=ignoredups:erasedups
 # Add timestamp to history
 HISTTIMEFORMAT='%F %T '
+
+eval $(thefuck --alias --enable-experimental-instant-mode)
