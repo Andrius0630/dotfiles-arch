@@ -168,4 +168,6 @@ HISTCONTROL=ignoredups:erasedups
 # Add timestamp to history
 HISTTIMEFORMAT='%F %T '
 
-eval $(thefuck --alias --enable-experimental-instant-mode)
+# eval $(thefuck --alias --enable-experimental-instant-mode)
+#
+# echo $'\033]30;dog\007'
