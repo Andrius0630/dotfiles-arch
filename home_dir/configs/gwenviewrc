@@ -6,26 +6,26 @@ SideBarPage=operations
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Tmp/2026-01-18_10-17.png
-File10[$e]=$HOME/Desktop/Užduočių priklausomybių diagrama.svg
-File2[$e]=$HOME/Tmp/2026-01-18_10-26.png
-File3[$e]=$HOME/Tmp/2026-01-18_10-29.png
-File4[$e]=$HOME/Tmp/2026-01-24_11-43.png
-File5[$e]=smb://truenas.local/Andrius/Career/id_card/face.jpg
-File6[$e]=smb://truenas.local/Andrius/Career/id_card/back.jpg
-File7[$e]=$HOME/Tmp/mainframe/2026-03-16_22-56.png
-File8[$e]=$HOME/Tmp/destytuvas/studentu_tvarkarastis.png
-File9[$e]=$HOME/Desktop/Užduočių hierarchija.svg
-Name1[$e]=2026-01-18_10-17.png
-Name10[$e]=Užduočių priklausomybių diagrama.svg
-Name2[$e]=2026-01-18_10-26.png
-Name3[$e]=2026-01-18_10-29.png
-Name4[$e]=2026-01-24_11-43.png
-Name5[$e]=face.jpg
-Name6[$e]=back.jpg
-Name7[$e]=2026-03-16_22-56.png
-Name8[$e]=studentu_tvarkarastis.png
-Name9[$e]=Užduočių hierarchija.svg
+File1[$e]=$HOME/Tmp/fujitsu-netbsd/images/Devices.ico
+File10[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/images/earth.ico
+File2[$e]=$HOME/Downloads/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Connections on Earth.ico
+File3[$e]=$HOME/Downloads/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Earth (4 colors).ico
+File4[$e]=$HOME/Downloads/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Earth (8 colors).ico
+File5[$e]=$HOME/Downloads/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Earth (16 colors).ico
+File6[$e]=$HOME/Downloads/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Earth (small).ico
+File7[$e]=$HOME/Downloads/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Tree.ico
+File8[$e]=$HOME/Downloads/Windows 95 ALL ICONS v1.1/All [Without duplicates]/Battery Indicator (100%).ico
+File9[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/images/96x96.png
+Name1[$e]=Devices.ico
+Name10[$e]=earth.ico
+Name2[$e]=Connections on Earth.ico
+Name3[$e]=Earth (4 colors).ico
+Name4[$e]=Earth (8 colors).ico
+Name5[$e]=Earth (16 colors).ico
+Name6[$e]=Earth (small).ico
+Name7[$e]=Tree.ico
+Name8[$e]=Battery Indicator (100%).ico
+Name9[$e]=96x96.png
 
 [SideBar]
 InformationSplitterSizes=220,255

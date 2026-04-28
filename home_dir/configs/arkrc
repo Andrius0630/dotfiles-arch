@@ -4,6 +4,7 @@ ShowSidebar=true
 
 [MainWindow]
 StatusBar=Disabled
+splitterSizes=575,103
 
 [Plugins]
 disabledPlugins=kerfuffle_libzip

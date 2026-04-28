@@ -133,6 +133,7 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles-arch/scripts:$PATH
 export PATH=$PATH:~/.config/emacs/bin
 export PATH=$PATH:~/go/bin
+export EDITOR='nvim'
 
 # bind "set completion-ignore-case on"
 

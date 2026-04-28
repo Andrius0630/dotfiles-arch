@@ -20,6 +20,7 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles-arch/scripts:$PATH
 export PATH=$PATH:~/.config/emacs/bin
 export PATH=$PATH:~/go/bin
+export EDITOR='nvim'
 
 git-update() {
     git add . && git commit -m "$1" && git push

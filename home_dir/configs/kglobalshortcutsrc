@@ -275,4 +275,6 @@ toggle do not disturb=,,Toggle do not disturb
 _launch=Print\tCtrl+Print
 
 [services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
 _launch=Meta+Shift+S
