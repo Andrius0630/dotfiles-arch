@@ -53,7 +53,8 @@ exec --no-startup-id nm-applet
 # bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Launchers
-bindsym $mod+Return exec kitty
+# bindsym $mod+Return exec kitty
+bindsym $mod+Return exec konsole
 bindsym $mod+f exec librewolf
 bindsym $mod+t exec Telegram
 bindsym Control+Print exec flameshot gui
@@ -87,8 +88,8 @@ floating_modifier $mod
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
-tiling_drag modifier titlebar
-
+# tiling_drag modifier titlebar
+tiling_drag titlebar
 # kill focused window
 bindsym $mod+w kill
 
