@@ -12,7 +12,7 @@ PowerProfile=power-saver
 PowerButtonAction=8
 
 [BatteryManagement]
-BatteryCriticalAction=1
+BatteryCriticalAction=8
 
 [LowBattery][Performance]
 PowerProfile=power-saver

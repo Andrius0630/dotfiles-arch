@@ -127,6 +127,11 @@ alias n='nvim'
 alias sl='sl -le'
 # alias docker='podman'
 alias :q=exit
+alias yay='yay --sudo doas'
+alias sudo='doas'
+
+alias dcd='docker compose down'
+alias dcp='docker compose up'
 
 export PATH=$PATH:~/.cargo/bin/
 export PATH=$HOME/.local/bin:$PATH

@@ -16,5 +16,8 @@ Places Icons Static Size=22
 [MainWindow]
 MenuBar=Disabled
 
+[Notification Messages]
+warnAboutRisksBeforeActingAsAdmin=false
+
 [PreviewSettings]
 Plugins=cursorthumbnail,imagethumbnail,comicbookthumbnail,gsthumbnail,ffmpegthumbs,fontthumbnail,djvuthumbnail,exrthumbnail,appimagethumbnail,windowsexethumbnail,audiothumbnail,rawthumbnail,kraorathumbnail,opendocumentthumbnail,blenderthumbnail,jpegthumbnail,windowsimagethumbnail,mobithumbnail,directorythumbnail,ebookthumbnail,svgthumbnail,glycin-jxl,glycin-svg,raw,glycin-image-rs,ffmpegthumbnailer,gsf-office,glycin-heif
