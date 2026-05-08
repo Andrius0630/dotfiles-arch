@@ -534,9 +534,11 @@ pinControls=true
 File1[$e]=$HOME/Tmp/destytuvas/first/attachments/cybersec.png
 File2[$e]=$HOME/Tmp/destytuvas/first/attachments/bsds.jpg
 File3[$e]=$HOME/Tmp/destytuvas/first/attachments/linux.png
+File4[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/tux.gif
 Name1=cybersec.png
 Name2=bsds.jpg
 Name3=linux.png
+Name4=tux.gif
 maxRecentFileItems=100
 
 [SelectedTags]

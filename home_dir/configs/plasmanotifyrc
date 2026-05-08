@@ -7,6 +7,9 @@ Seen=true
 [Applications][org.mozilla.Thunderbird]
 Seen=true
 
+[Applications][org.qbittorrent.qBittorrent]
+Seen=true
+
 [Applications][teams-for-linux]
 Seen=true
 
