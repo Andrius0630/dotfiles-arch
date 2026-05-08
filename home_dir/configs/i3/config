@@ -54,7 +54,7 @@ exec --no-startup-id nm-applet
 
 # Launchers
 # bindsym $mod+Return exec kitty
-bindsym $mod+Return exec konsole
+bindsym $mod+Return exec alacritty
 bindsym $mod+f exec librewolf
 bindsym $mod+t exec Telegram
 bindsym Control+Print exec flameshot gui
