@@ -48,7 +48,7 @@ input {
 
     mouse {
         // off
-        natural-scroll
+        // natural-scroll
         // accel-speed 0.2
         // accel-profile "flat"
         // scroll-method "no-scroll"
@@ -79,35 +79,10 @@ input {
 // Find more information on the wiki:
 // https://yalter.github.io/niri/Configuration:-Outputs
 // Remember to uncomment the node by removing "/-"!
-/-output "eDP-1" {
-    // Uncomment this line to disable this output.
-    // off
-
-    // Resolution and, optionally, refresh rate of the output.
-    // The format is "<width>x<height>" or "<width>x<height>@<refresh rate>".
-    // If the refresh rate is omitted, niri will pick the highest refresh rate
-    // for the resolution.
-    // If the mode is omitted altogether or is invalid, niri will pick one automatically.
-    // Run `niri msg outputs` while inside a niri instance to list all outputs and their modes.
+output "eDP-1" {
     mode "1920x1080@120.030"
-
-    // You can use integer or fractional scale, for example use 1.5 for 150% scale.
-    scale 2
-
-    // Transform allows to rotate the output counter-clockwise, valid values are:
-    // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
+    scale 1
     transform "normal"
-
-    // Position of the output in the global coordinate space.
-    // This affects directional monitor actions like "focus-monitor-left", and cursor movement.
-    // The cursor can only move between directly adjacent outputs.
-    // Output scale and rotation has to be taken into account for positioning:
-    // outputs are sized in logical, or scaled, pixels.
-    // For example, a 3840×2160 output with scale 2.0 will have a logical size of 1920×1080,
-    // so to put another output directly adjacent to it on the right, set its x to 1920.
-    // If the position is unset or results in an overlap, the output is instead placed
-    // automatically.
-    position x=1280 y=0
 }
 
 // Settings that influence how windows are positioned and sized.
@@ -115,7 +90,8 @@ input {
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 16
+    // gaps 16
+    gaps 5
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -142,7 +118,7 @@ layout {
     // preset-window-heights { }
 
     // You can change the default width of the new windows.
-    default-column-width { proportion 0.5; }
+    default-column-width { proportion 1.0; }
     // If you leave the brackets empty, the windows themselves will decide their initial width.
     // default-column-width {}
 
@@ -273,11 +249,13 @@ layout {
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
 // spawn-at-startup "ashell"
-// spawn-at-startup "qs" "-c" "noctalia-shell"
-spawn-at-startup "waybar"
+spawn-at-startup "qs" "-c" "noctalia-shell"
+// spawn-at-startup "waybar"
 spawn-at-startup "gsettings" "set" "org.gnome.desktop.interface" "color-scheme" "prefer-dark"
 spawn-at-startup "gsettings" "set" "org.gnome.desktop.interface" "cursor-theme" "breeze_cursors"
-spawn-at-startup "dbus-update-activation-environment" "--systemd" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP=niri"
+spawn-at-startup "dbus-update-activation-environment" "--systemd" "DISPLAY" "WAYLAND_DISPLAY" "XDG_CURRENT_DESKTOP" "XDG_SESSION_TYPE" "ELECTRON_OZONE_PLATFORM_HINT" "QT_QPA_PLATFORM"
+spawn-at-startup "thunar" "--daemon"
+spawn-at-startup "nm-applet"
 spawn-at-startup "dunst"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
@@ -311,7 +289,7 @@ animations {
     // off
 
     // Slow down all animations by this factor. Values below 1 speed them up instead.
-    // slowdown 3.0
+     slowdown 0.2
 }
 
 // Window rules let you adjust behavior for individual windows.
@@ -324,8 +302,20 @@ window-rule {
     // This regular expression is intentionally made as specific as possible,
     // since this is the default config, and we want no false positives.
     // You can get away with just app-id="wezterm" if you want.
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
+    // match app-id=r#"^org\.wezfurlong\.wezterm$"#
+    match app-id="librewolf"
+    default-column-width { proportion 1.0; }
+}
+
+// Open mpv and nsxiv fullscreen (ported from i3 for_window rules).
+window-rule {
+    match app-id="^mpv$"
+    open-fullscreen true
+}
+
+window-rule {
+    match app-id="^nsxiv$"
+    open-fullscreen true
 }
 
 // Open the Firefox picture-in-picture player as floating by default.
@@ -352,8 +342,8 @@ window-rule {
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
 window-rule {
-    geometry-corner-radius 12
-    clip-to-geometry true
+    // geometry-corner-radius 12
+    // clip-to-geometry true
 }
 
 binds {
@@ -374,6 +364,10 @@ binds {
     // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    Mod+T { spawn "Telegram"; }
+    Mod+E { spawn "thunar"; }
+    Mod+B { spawn-sh "$HOME/dotfiles-arch/scripts/bookmarks-rofi.sh"; }
+    Mod+Shift+C { spawn-sh "$HOME/dotfiles-arch/scripts/webcam.sh"; }
     // Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
@@ -615,8 +609,7 @@ binds {
     // Mod+Space       { switch-layout "next"; }
     // Mod+Shift+Space { switch-layout "prev"; }
 
-    Print { screenshot; }
-    // Print { spawn-sh "flameshot gui"; }
+    Print { spawn "flameshot" "gui"; }
     Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
 
@@ -634,7 +627,9 @@ binds {
     Mod+Shift+E { quit; }
     Ctrl+Alt+Delete { quit; }
 
+    // Power menu (shutdown/reboot/suspend/etc.)
+    Mod+Shift+P { spawn-sh "$HOME/dotfiles-arch/scripts/power-menu.sh"; }
     // Powers off the monitors. To turn them back on, do any input like
     // moving the mouse or pressing any other key.
-    Mod+Shift+P { power-off-monitors; }
+    Mod+Ctrl+Shift+P { power-off-monitors; }
 }
