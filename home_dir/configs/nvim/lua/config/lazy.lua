@@ -20,10 +20,14 @@ vim.opt.rtp:prepend(lazypath)
 -- This is also a good place to setup other settings (vim.opt)
 vim.g.mapleader = " "
 
+vim.api.nvim_create_autocmd("FileType", {
+    callback = function() pcall(vim.treesitter.start) end,
+})
+
 -- Setup lazy.nvim
 require("lazy").setup({
     {
-        'nvim-telescope/telescope.nvim', tag = 'v0.2.1',
+        'nvim-telescope/telescope.nvim',
         dependencies = {
             'nvim-lua/plenary.nvim',
             -- optional but recommended
@@ -49,34 +53,24 @@ require("lazy").setup({
             -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
         end
     },
-    {
-        "nvim-treesitter/nvim-treesitter",
-        branch = 'master',
-        lazy = false,
-        build = ":TSUpdate",
-        config = function()
-            require'nvim-treesitter.configs'.setup {
-                -- A list of parser names, or "all" (the listed parsers MUST always be installed)
-                ensure_installed = { "c", "lua", "java", "bash", "rust", "markdown", "markdown_inline", "dockerfile", "arduino", "cmake" },
-
-                -- Install parsers synchronously (only applied to `ensure_installed`)
-                sync_install = false,
-
-                -- Automatically install missing parsers when entering buffer
-                -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
-                auto_install = true,
-
-                highlight = {
-                    enable = true,
-
-
-                    additional_vim_regex_highlighting = false,
-                },
-            }
-        end
-    },
-    { "nvim-treesitter/playground" },
-
+    -- nvim-treesitter archived/broken on Neovim 0.12 — using system parsers + built-in treesitter instead
+    -- {
+    --     "nvim-treesitter/nvim-treesitter",
+    --     branch = 'master',
+    --     lazy = false,
+    --     build = ":TSUpdate",
+    --     config = function()
+    --         require'nvim-treesitter.configs'.setup {
+    --             ensure_installed = { "c", "lua", "java", "bash", "rust", "markdown", "markdown_inline", "dockerfile", "arduino", "cmake" },
+    --             sync_install = false,
+    --             auto_install = true,
+    --             highlight = {
+    --                 enable = true,
+    --                 additional_vim_regex_highlighting = false,
+    --             },
+    --         }
+    --     end
+    -- },
     {
         "ThePrimeagen/harpoon",
         dependencies = { "nvim-lua/plenary.nvim" },
@@ -93,6 +87,24 @@ require("lazy").setup({
             vim.keymap.set("n", "<leader>3", function() ui.nav_file(3) end)
             vim.keymap.set("n", "<leader>4", function() ui.nav_file(4) end)
         end
+    },
+    {
+        'echasnovski/mini.nvim',
+        config = function()
+            require('mini.comment').setup()
+            require('mini.pairs').setup()
+            require('mini.diff').setup()
+        end
+    },
+    {
+        'MeanderingProgrammer/render-markdown.nvim',
+        dependencies = { 'echasnovski/mini.nvim' },                                              -- nvim-treesitter removed (archived/broken on Neovim 0.12)
+        -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-mini/mini.nvim' },
+        -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-mini/mini.icons' },
+        -- dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' },
+        ---@module 'render-markdown'
+        ---@type render.md.UserConfig
+        opts = {},
     },
     {
         "mbbill/undotree",
