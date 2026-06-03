@@ -1,6 +1,7 @@
 [Added Associations]
 application/octet-stream=veracrypt.desktop;
 application/x-matroska=mpv.desktop;
+application/x-zerosize=org.kde.kate.desktop;
 application/xhtml+xml=librewolf.desktop;brave-browser.desktop;firefox.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;okularApplication_txt.desktop;onlyoffice-desktopeditors.desktop;emacsclient.desktop;emacs.desktop;nvim.desktop;vim.desktop;veracrypt.desktop;
 audio/aac=mpv.desktop;vlc.desktop;
 audio/mp4=mpv.desktop;vlc.desktop;
@@ -69,6 +70,7 @@ x-scheme-handler/mailto=org.mozilla.Thunderbird.desktop;
 [Default Applications]
 application/octet-stream=veracrypt.desktop;
 application/x-matroska=mpv.desktop;
+application/x-zerosize=org.kde.kate.desktop;
 application/xhtml+xml=librewolf.desktop;
 audio/aac=mpv.desktop;
 audio/mp4=mpv.desktop;
@@ -130,7 +132,7 @@ video/x-ogm=mpv.desktop;
 video/x-ogm+ogg=mpv.desktop;
 video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
+x-scheme-handler/claude-cli=claude-code-url-handler.desktop
 x-scheme-handler/http=google-chrome.desktop
 x-scheme-handler/https=google-chrome.desktop
 x-scheme-handler/mailto=org.mozilla.Thunderbird.desktop;
-x-scheme-handler/claude-cli=claude-code-url-handler.desktop

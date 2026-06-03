@@ -14,10 +14,12 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.5,
+                "brightness": 0.3,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
+                "customModes": [
+                ],
                 "detectedDdcCi": false,
                 "edidHash": "2e3af72d109f5095b85ef32985f80107",
                 "edidIdentifier": "NCP 64 0 1 2018 0",
@@ -26,6 +28,7 @@
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
                 "mode": {
+                    "flags": 1,
                     "height": 1080,
                     "refreshRate": 60020,
                     "width": 1920
@@ -58,6 +61,8 @@
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "HDMI-A-1",
+                "customModes": [
+                ],
                 "detectedDdcCi": true,
                 "edidHash": "b6d2e7e89c64526131899475e98bc668",
                 "edidIdentifier": "ACR 1600 2485200283 42 2019 0",
@@ -65,6 +70,7 @@
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
+                    "flags": 1,
                     "height": 1080,
                     "refreshRate": 74986,
                     "width": 1920
@@ -472,7 +478,7 @@
             },
             {
                 "allowDdcCi": true,
-                "allowSdrSoftwareBrightness": true,
+                "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
                     0,
                     0,
@@ -483,17 +489,20 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.5,
+                "brightness": 0.9,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "HDMI-A-1",
-                "detectedDdcCi": false,
+                "customModes": [
+                ],
+                "detectedDdcCi": true,
                 "edidHash": "4627556afcd705f7b34584d7f3c4c168",
                 "edidIdentifier": "HWP 12887 16843009 52 2015 0",
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
+                    "flags": 1,
                     "height": 1080,
                     "refreshRate": 60000,
                     "width": 1920

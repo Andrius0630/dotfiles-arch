@@ -38,7 +38,7 @@ viewShade=77,46,91
 AllowedServerCommandLines=/usr/lib/rustup/bin/rust-analyzer
 AutoHover=true
 AutoImport=true
-BlockedServerCommandLines=/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled
+BlockedServerCommandLines=/usr/bin/R --slave -e languageserver::run(),/usr/bin/clangd -log=error --background-index --limit-results=500 --completion-style=bundled,/usr/bin/gopls
 CompletionDocumentation=true
 CompletionParens=true
 Diagnostics=true

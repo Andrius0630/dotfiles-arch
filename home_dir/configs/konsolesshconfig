@@ -1,2 +1,42 @@
 [Global plugin config]
 manageProfile=false
+
+[SSH Config][hetzner]
+hostname=88.198.205.109
+identifier=hetzner
+importedFromSshConfig=true
+port=
+profileName=
+sshkey=
+useSshConfig=true
+username=andrey
+
+[SSH Config][robotukas]
+hostname=193.219.91.104
+identifier=robotukas
+importedFromSshConfig=true
+port=7947
+profileName=
+sshkey=
+useSshConfig=true
+username=anko1276
+
+[SSH Config][uosis]
+hostname=uosis.mif.vu.lt
+identifier=uosis
+importedFromSshConfig=true
+port=
+profileName=Built-in
+sshkey=
+useSshConfig=true
+username=anko1276
+
+[SSH Config][web]
+hostname=193.219.91.103
+identifier=web
+importedFromSshConfig=true
+port=5121
+profileName=
+sshkey=
+useSshConfig=true
+username=anko1276

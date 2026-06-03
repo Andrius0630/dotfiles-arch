@@ -1,6 +1,7 @@
 [EmbedSettings]
 embed-application/octet-stream=false
 embed-application/x-matroska=false
+embed-application/x-zerosize=false
 embed-audio/aac=false
 embed-audio/mp4=false
 embed-audio/mpeg=false
