@@ -1,33 +1,32 @@
 [General]
 LastUsedVersion=210800
-SideBarPage=operations
 
 [MainWindow]
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/door-open.gif
-File10[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/audilogo.gif
-File2[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/diablo-logo.gif
-File3[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/devil.gif
-File4[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/come-here.gif
-File5[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/butterfly.gif
-File6[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/burning-purple-skull.gif
-File7[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/banana-dance.gif
-File8[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/background_sparkles.gif
-File9[$e]=$HOME/Tmp/fujitsu-netbsd/andreysworld/gifs/back-skull.gif
-Name1[$e]=door-open.gif
-Name10[$e]=audilogo.gif
-Name2[$e]=diablo-logo.gif
-Name3[$e]=devil.gif
-Name4[$e]=come-here.gif
-Name5[$e]=butterfly.gif
-Name6[$e]=burning-purple-skull.gif
-Name7[$e]=banana-dance.gif
-Name8[$e]=background_sparkles.gif
-Name9[$e]=back-skull.gif
+File1[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (50%).ico
+File10[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/execution_model.svg
+File2[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (60%).ico
+File3[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (70%).ico
+File4[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (75%).ico
+File5[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (90%).ico
+File6[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (95%).ico
+File7[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (100%).ico
+File8[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Beizer.ico
+File9[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/Microagents.svg
+Name1[$e]=Battery Indicator (50%).ico
+Name10[$e]=execution_model.svg
+Name2[$e]=Battery Indicator (60%).ico
+Name3[$e]=Battery Indicator (70%).ico
+Name4[$e]=Battery Indicator (75%).ico
+Name5[$e]=Battery Indicator (90%).ico
+Name6[$e]=Battery Indicator (95%).ico
+Name7[$e]=Battery Indicator (100%).ico
+Name8[$e]=Beizer.ico
+Name9[$e]=Microagents.svg
 
 [SideBar]
-InformationSplitterSizes=220,255
+InformationSplitterSizes=412,477
 IsVisible ViewMode=true
 SideBarSplitterSizes=227,1692

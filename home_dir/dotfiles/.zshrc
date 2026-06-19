@@ -138,6 +138,7 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/dotfiles-arch/scripts:$PATH
 export PATH=$PATH:~/.config/emacs/bin
 export PATH=$PATH:~/go/bin
+export PATH=$HOME/.npm-global/bin:$PATH
 export EDITOR='nvim'
 
 # bind "set completion-ignore-case on"
@@ -177,3 +178,7 @@ HISTTIMEFORMAT='%F %T '
 # eval $(thefuck --alias --enable-experimental-instant-mode)
 #
 # echo $'\033]30;dog\007'
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/andrey/.local/bin:$PATH"

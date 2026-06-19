@@ -8,3 +8,7 @@ abbr -a v nvim
 abbr -a vim nvim
 
 
+
+
+# Added by Antigravity CLI installer
+set -gx PATH "/home/andrey/.local/bin" $PATH
