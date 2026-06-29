@@ -131,7 +131,7 @@ alias yay='yay --sudo doas'
 alias sudo='doas'
 alias find='fd'
 alias grep='rg'
-alias cat='bat'
+# alias cat='bat'
 
 alias dcd='docker compose down'
 alias dcp='docker compose up'
