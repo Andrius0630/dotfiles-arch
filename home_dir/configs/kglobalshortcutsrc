@@ -287,8 +287,6 @@ _launch=Monitor Brightness Up
 _launch=Print\tCtrl+Print
 
 [services][org.kde.spectacle.desktop]
-CurrentMonitorScreenShot=none
-OpenWithoutScreenshot=none
 _launch=Meta+Shift+S
 
 [services][org.telegram.desktop.desktop]

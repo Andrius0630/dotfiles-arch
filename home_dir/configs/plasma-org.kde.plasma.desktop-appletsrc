@@ -85,7 +85,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:librewolf.desktop,applications:org.kde.konsole.desktop,applications:code.desktop,applications:emacsclient.desktop,applications:org.kde.kate.desktop,applications:org.mozilla.Thunderbird.desktop,applications:localsend.desktop
+launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop,applications:code.desktop,applications:emacsclient.desktop,applications:org.kde.kate.desktop,applications:org.mozilla.Thunderbird.desktop,applications:localsend.desktop
 
 [Containments][2][Applets][6]
 immutability=1

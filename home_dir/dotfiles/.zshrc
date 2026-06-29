@@ -180,3 +180,5 @@ HISTTIMEFORMAT='%F %T '
 
 PROMPT='┌─[ %{$fg[green]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%} | %{$fg[yellow]%}%*%{$reset_color%} | %{$fg[cyan]%}%c%{$reset_color%} ] $(git_prompt_info)
 └─%(?:%{$fg_bold[green]%}❯ :%{$fg_bold[red]%}❯ )%{$reset_color%}'
+
+eval "$(zoxide init zsh)"
