@@ -129,6 +129,9 @@ alias sl='sl -le'
 alias :q=exit
 alias yay='yay --sudo doas'
 alias sudo='doas'
+alias find='fd'
+alias grep='rg'
+alias cat='bat'
 
 alias dcd='docker compose down'
 alias dcp='docker compose up'
@@ -175,10 +178,5 @@ HISTCONTROL=ignoredups:erasedups
 # Add timestamp to history
 HISTTIMEFORMAT='%F %T '
 
-# eval $(thefuck --alias --enable-experimental-instant-mode)
-#
-# echo $'\033]30;dog\007'
-
-
-# Added by Antigravity CLI installer
-export PATH="/home/andrey/.local/bin:$PATH"
+PROMPT='┌─[ %{$fg[green]%}%n%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%} | %{$fg[yellow]%}%*%{$reset_color%} | %{$fg[cyan]%}%c%{$reset_color%} ] $(git_prompt_info)
+└─%(?:%{$fg_bold[green]%}❯ :%{$fg_bold[red]%}❯ )%{$reset_color%}'

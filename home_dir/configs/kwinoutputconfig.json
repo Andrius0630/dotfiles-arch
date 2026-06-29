@@ -20,7 +20,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.8,
+                "brightness": 0.3,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
@@ -53,6 +53,7 @@
                 "wideColorGamut": false
             },
             {
+                "abmLevel": 0,
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
@@ -80,6 +81,8 @@
                 "edidHash": "b6d2e7e89c64526131899475e98bc668",
                 "edidIdentifier": "ACR 1600 2485200283 42 2019 0",
                 "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
@@ -145,6 +148,7 @@
                 "wideColorGamut": false
             },
             {
+                "abmLevel": 0,
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": true,
                 "autoBrightnessCurve": [
@@ -172,6 +176,8 @@
                 "edidHash": "7025eeed7af330c585e27da05c9bbe39",
                 "edidIdentifier": "SAM 3592 917504 14 2017 0",
                 "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
@@ -507,6 +513,7 @@
                 "wideColorGamut": false
             },
             {
+                "abmLevel": 0,
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
@@ -534,6 +541,8 @@
                 "edidHash": "83449b8f602fe54960b5d358bd986f11",
                 "edidIdentifier": "GWD 45409 57803283 44 2025 0",
                 "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
@@ -554,6 +563,7 @@
                 "wideColorGamut": false
             },
             {
+                "abmLevel": 0,
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
@@ -581,8 +591,11 @@
                 "edidHash": "4627556afcd705f7b34584d7f3c4c168",
                 "edidIdentifier": "HWP 12887 16843009 52 2015 0",
                 "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
                     "flags": 1,
                     "height": 1080,
@@ -691,7 +704,7 @@
                             "y": 0
                         },
                         "priority": 2,
-                        "replicationSource": "0f352b0a-3a53-4d41-b3fd-aa32e90815e1"
+                        "replicationSource": ""
                     }
                 ]
             },
@@ -959,10 +972,10 @@
                 "lidClosed": false,
                 "outputs": [
                     {
-                        "enabled": true,
+                        "enabled": false,
                         "outputIndex": 0,
                         "position": {
-                            "x": 0,
+                            "x": -1920,
                             "y": 316
                         },
                         "priority": 2,
@@ -972,7 +985,7 @@
                         "enabled": true,
                         "outputIndex": 1,
                         "position": {
-                            "x": 1920,
+                            "x": 0,
                             "y": 316
                         },
                         "priority": 1,
@@ -982,10 +995,10 @@
                         "enabled": true,
                         "outputIndex": 11,
                         "position": {
-                            "x": 3840,
+                            "x": 1920,
                             "y": 0
                         },
-                        "priority": 3,
+                        "priority": 2,
                         "replicationSource": ""
                     }
                 ]

@@ -14,8 +14,8 @@ Show welcome view for new window=false
 
 [MainWindow]
 1536x864 screen: Window-Maximized=true
-1920x1080 screen: Height=661
-1920x1080 screen: Width=1112
+1920x1080 screen: Height=616
+1920x1080 screen: Width=920
 1920x1080 screen: Window-Maximized=true
 2 screens: Height=661
 2 screens: Width=1112

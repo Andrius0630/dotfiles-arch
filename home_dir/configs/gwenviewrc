@@ -5,26 +5,26 @@ LastUsedVersion=210800
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (50%).ico
-File10[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/execution_model.svg
-File2[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (60%).ico
-File3[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (70%).ico
-File4[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (75%).ico
-File5[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (90%).ico
-File6[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (95%).ico
-File7[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (100%).ico
-File8[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Beizer.ico
-File9[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/Microagents.svg
-Name1[$e]=Battery Indicator (50%).ico
-Name10[$e]=execution_model.svg
-Name2[$e]=Battery Indicator (60%).ico
-Name3[$e]=Battery Indicator (70%).ico
-Name4[$e]=Battery Indicator (75%).ico
-Name5[$e]=Battery Indicator (90%).ico
-Name6[$e]=Battery Indicator (95%).ico
-Name7[$e]=Battery Indicator (100%).ico
-Name8[$e]=Beizer.ico
-Name9[$e]=Microagents.svg
+File1[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (75%).ico
+File10[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/data.svg
+File2[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (90%).ico
+File3[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (95%).ico
+File4[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Battery Indicator (100%).ico
+File5[$e]=$HOME/Tmp/fujitsu-netbsd/Windows 95 ALL ICONS/All [Without duplicates]/Beizer.ico
+File6[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/Microagents.svg
+File7[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/execution_model.svg
+File8[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/img/workflow2.png
+File9[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/img/NLDDRzim3BthLn0vTEqXBlOD5CNG9ccn0YaQ9C5sM7TWPIOs8akUHAS9XlttKV97Y_f4YdoFv2Dz5HWzDvLHOLVQ6ZrMe5rLEqkMLtmq19uqezqQKgf6lSCjmQWgjNTYMGxmu7L1WJsoyoFugq2-N-ypcBggGfkFvwKbkBDCVeEQVWC6cCxlshGF6VnqVhSnxXdcU2IVmlrJc_CnWvi3wKReKxHtskYd3AvZ7x2aRIbT75DExxGvdp.svg
+Name1[$e]=Battery Indicator (75%).ico
+Name10[$e]=data.svg
+Name2[$e]=Battery Indicator (90%).ico
+Name3[$e]=Battery Indicator (95%).ico
+Name4[$e]=Battery Indicator (100%).ico
+Name5[$e]=Beizer.ico
+Name6[$e]=Microagents.svg
+Name7[$e]=execution_model.svg
+Name8[$e]=workflow2.png
+Name9[$e]=NLDDRzim3BthLn0vTEqXBlOD5CNG9ccn0YaQ9C5sM7TWPIOs8akUHAS9XlttKV97Y_f4YdoFv2Dz5HWzDvLHOLVQ6ZrMe5rLEqkMLtmq19uqezqQKgf6lSCjmQWgjNTYMGxmu7L1WJsoyoFugq2-N-ypcBggGfkFvwKbkBDCVeEQVWC6cCxlshGF6VnqVhSnxXdcU2IVmlrJc_CnWvi3wKReKxHtskYd3AvZ7x2aRIbT75DExxGvdp.svg
 
 [SideBar]
 InformationSplitterSizes=412,477

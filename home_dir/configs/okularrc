@@ -3,26 +3,26 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=true
+ShowSidebar=false
 
 [Recent Files]
-File1[$e]=$HOME/Tmp/kristina/Emocijos.pdf
-File10[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/slides.pdf
-File2[$e]=$HOME/Tmp/kristina/Gyv_ciklas.pdf
-File3[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/architecture_overview.pdf
-File4[$e]=$HOME/Tmp/kristina/Zmogus.pdf
-File5[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/assets/execution_model.pdf
-File6[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/mainDocument_EN.pdf
-File7[$e]=$HOME/vu/cyberlab/microagents-tarpinis-kd/tarpine-kd-versija/doc/SP__Development_of_microagent_AI_services_using_remote_hardware_in_the_cloud.pdf
-File8[$e]=$HOME/vu/pen-test/egzam-material/1. Internet Application Penetration Testing.pdf
-File9[$e]=$HOME/vu/cyberlab/microagents_presentation/niewuliscomwrcode.pdf
-Name1[$e]=Emocijos.pdf
-Name10[$e]=slides.pdf
-Name2[$e]=Gyv_ciklas.pdf
-Name3[$e]=architecture_overview.pdf
-Name4[$e]=Zmogus.pdf
-Name5[$e]=execution_model.pdf
-Name6[$e]=mainDocument_EN.pdf
-Name7[$e]=SP__Development_of_microagent_AI_services_using_remote_hardware_in_the_cloud.pdf
-Name8[$e]=1. Internet Application Penetration Testing.pdf
-Name9[$e]=niewuliscomwrcode.pdf
+File1[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/slides.pdf
+File10[$e]=/mnt/Career/LS26_Andrius Kolenda.pdf
+File2[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/img/workflow2.pdf
+File3[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/img/architecture_overview-2.pdf
+File4[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/tokenizatoin_cropped.pdf
+File5[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/Data analysis workflow.pdf
+File6[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/dataextractionworkflowcropped.pdf
+File7[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/niewuliscomwrcode.pdf
+File8[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/naujas-dataex.pdf
+File9[$e]=$HOME/vu/cyberlab/microagents/microagents_presentation/PRESENTATION-A.Kolenda.pdf
+Name1[$e]=slides.pdf
+Name10[$e]=LS26_Andrius Kolenda.pdf
+Name2[$e]=workflow2.pdf
+Name3[$e]=architecture_overview-2.pdf
+Name4[$e]=tokenizatoin_cropped.pdf
+Name5[$e]=Data analysis workflow.pdf
+Name6[$e]=dataextractionworkflowcropped.pdf
+Name7[$e]=niewuliscomwrcode.pdf
+Name8[$e]=naujas-dataex.pdf
+Name9[$e]=PRESENTATION-A.Kolenda.pdf

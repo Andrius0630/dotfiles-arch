@@ -137,6 +137,7 @@ AccentColor=146,110,228
 BrowserApplication=google-chrome.desktop
 ColorSchemeHash=9d38eb71ded8ff549da26d57d7cbab9164da243a
 LastUsedCustomAccentColor=146,110,228
+UseSystemBell=true
 
 [KDE]
 AnimationDurationFactor=0.17677669529663687
