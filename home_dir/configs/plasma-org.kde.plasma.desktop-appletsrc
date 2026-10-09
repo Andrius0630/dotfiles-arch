@@ -10,7 +10,9 @@ ItemGeometries-1536x864=
 ItemGeometries-1920x1080=
 ItemGeometries-2048x1152=
 ItemGeometries-3072x1728=
+ItemGeometries-960x1707=
 ItemGeometriesHorizontal=
+ItemGeometriesVertical=
 activityId=
 formfactor=0
 immutability=1
@@ -24,14 +26,14 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][1][General]
-changedPositions={"desktop:/3.3.txt":["1536x864,1920x1080,2560x1440,960x540","0","1"],"desktop:/89.txt":["1536x864,1920x1080,2560x1440,960x540","0","0"],"desktop:/From Arduino Uno to ESP32-S3.pdf":["1536x864,1920x1080,2560x1440,960x540","0","3"],"desktop:/guoda.txt":["1536x864,1920x1080,2560x1440,960x540","0","2"],"desktop:/rig_docs":["3840x2160,1536x864,1920x1080,3413x1920,2259x1271,2560x1440,1422x800,1024x768,960x540,3072x1728","0","0"],"desktop:/satelite.txt":["1536x864,1920x1080,2560x1440,960x540","0","19"]}
+changedPositions={"desktop:/3.3.txt":["960x540,1920x1080,960x1707,2560x1440,1536x864","0","1"],"desktop:/89.txt":["960x540,1920x1080,960x1707,2560x1440,1536x864","0","0"],"desktop:/Certs Cheat Sheet":["1920x1080,960x1707","7","3"],"desktop:/Free CCNA Cheat Sheet 2026_ Exam Quick Reference _ OpenExamPrep.pdf":["1920x1080,960x1707","0","7"],"desktop:/From Arduino Uno to ESP32-S3.pdf":["1920x1080","0","2"],"desktop:/HEHE.txt":["1920x1080,960x1707","0","7"],"desktop:/Powers-of-2-Chart-2286387097.jpg":["1920x1080","0","5"],"desktop:/english.tsv":["1920x1080","0","4"],"desktop:/guoda.txt":["960x540,1920x1080,960x1707,2560x1440,1536x864","0","2"],"desktop:/ip_camera.txt":["1920x1080","0","3"],"desktop:/mentoryste-template.txt":["1920x1080","0","7"],"desktop:/rig_docs":["1422x800,960x540,2259x1271,3072x1728,3413x1920,1920x1080,960x1707,3840x2160,2560x1440,1536x864,1024x768","0","0"],"desktop:/satelite.txt":["960x540,1920x1080,960x1707,2560x1440,1536x864","0","19"],"desktop:/subnets.txt":["1920x1080","0","7"]}
 iconSize=2
 lastResolution=1920x1080
-positions={"1024x768":["2","9","desktop:/rig_docs","0","0","desktop:/satelite.txt","0","16"],"1422x800":["1","13","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/rig_docs","0","0","desktop:/unix.html","0","1","desktop:/2026-04-12_19-52.png","0","2","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/backup.sh","0","3","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7"],"1536x864":["1","16","desktop:/From Arduino Uno to ESP32-S3.pdf","0","4","desktop:/satelite.txt","0","15","desktop:/rig_docs","0","0","desktop:/3.3.txt","0","2","desktop:/89.txt","0","0","desktop:/system_summary_hp-omen_2026-07-16.txt","0","5","desktop:/guoda.txt","0","3","desktop:/j.txt","0","1"],"1920x1080":["1","20","desktop:/satelite.txt","0","19","desktop:/2026-08-20_22-19.png","0","6","desktop:/english_dedup.tsv","0","6","desktop:/conversations.json","0","10","desktop:/PyFJkrE-.jpg","0","8","desktop:/mikrotik.txt","0","7","desktop:/FLgbs0bI.mp4","0","11","desktop:/guoda.txt","0","2","desktop:/2026-07-29_17-32.png","0","9","desktop:/18iUOBji.jpg","0","7","desktop:/2026-08-19_16-46.png","0","7","desktop:/j.txt","0","1","desktop:/rig_docs","0","0","desktop:/JiYD0xM4.mp4","0","10","desktop:/From Arduino Uno to ESP32-S3.pdf","0","3","desktop:/O9PQ56rr.jpg","0","9","desktop:/m2-res_1920p (1).mp4","0","5","desktop:/2026-07-31_18-48.png","0","5","desktop:/english.tsv.tmp.9548.3091a7c6fb8e","0","6","desktop:/english.tsv","0","5","desktop:/3.3.txt","0","1","desktop:/ip_camera.txt","0","4","desktop:/english.tsv.tmp.9548.0bca6fd68d1d","0","6","desktop:/sysadmin.txt","0","6","desktop:/english_semicolon.csv","0","6","desktop:/2.png","0","7","desktop:/system_summary_hp-omen_2026-07-16.txt","0","5","desktop:/Free Network+ Cheat Sheet 2026_ Exam Quick Reference _ OpenExamPrep.pdf","0","6","desktop:/1.png","0","6","desktop:/english.tsv.tmp.9548.96b24559f541","0","6","desktop:/english_clean.csv","0","6","desktop:/english.csv","0","5","desktop:/truenas-25.04.2.6-20260820133625.tar","0","8","desktop:/89.txt","0","0","desktop:/2026-08-18_22-21.png","0","6","desktop:/english.tsv.tmp.9548.eda6ed75c933","0","6"],"2048x1152":["1","18"],"2259x1271":["1","20","desktop:/rig_docs","0","0","desktop:/unix.html","0","1","desktop:/2026-04-12_19-52.png","0","2"],"2560x1440":["1","26","desktop:/backup.sh","0","3","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7","desktop:/2026-04-12_19-52.png","0","2","desktop:/satelite.txt","0","19","desktop:/guoda.txt","0","0","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/3.3.txt","0","2","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/89.txt","0","3","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/ip_camera.txt","0","4","desktop:/unix.html","0","1","desktop:/From Arduino Uno to ESP32-S3.pdf","0","5","desktop:/rig_docs","0","0","desktop:/2026-07-31_18-48.png","0","6"],"3072x1728":["1","28","desktop:/2026-04-18_11-52.png","0","1","desktop:/rig_docs","0","0","desktop:/mainframe.txt","0","2"],"3413x1920":["1","31","desktop:/backup.sh","0","3","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/unix.html","0","1","desktop:/rig_docs","0","0","desktop:/2026-04-12_19-52.png","0","2"],"3840x2160":["1","35","desktop:/rig_docs","0","0","desktop:/2026-04-12_19-52.png","0","2","desktop:/unix.html","0","1"],"960x540":["1","10","desktop:/j.txt","0","1","desktop:/1.png","0","6","desktop:/2026-07-29_17-32.png","0","9","desktop:/sysadmin.txt","0","6","desktop:/2026-07-31_18-48.png","0","5","desktop:/89.txt","0","0","desktop:/guoda.txt","0","2","desktop:/m2-res_1920p (1).mp4","0","5","desktop:/ip_camera.txt","0","4","desktop:/2.png","0","7","desktop:/conversations.json","0","10","desktop:/3.3.txt","0","1","desktop:/mikrotik.txt","0","7","desktop:/satelite.txt","0","16","desktop:/rig_docs","0","0","desktop:/From Arduino Uno to ESP32-S3.pdf","0","3","desktop:/system_summary_hp-omen_2026-07-16.txt","0","5"]}
+positions={"1024x768":["2","9","desktop:/rig_docs","0","0","desktop:/satelite.txt","0","16"],"1422x800":["1","13","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/rig_docs","0","0","desktop:/unix.html","0","1","desktop:/2026-04-12_19-52.png","0","2","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/backup.sh","0","3","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7"],"1536x864":["1","16","desktop:/From Arduino Uno to ESP32-S3.pdf","0","4","desktop:/satelite.txt","0","15","desktop:/rig_docs","0","0","desktop:/3.3.txt","0","2","desktop:/89.txt","0","0","desktop:/system_summary_hp-omen_2026-07-16.txt","0","5","desktop:/guoda.txt","0","3","desktop:/j.txt","0","1"],"1920x1080":["1","20","desktop:/Network+ Cheat Sheet 2026.pdf","0","6","desktop:/Free Network+ Cheat Sheet 2026_ Exam Quick Reference _ OpenExamPrep.pdf","0","6","desktop:/english.tsv.tmp.9548.0bca6fd68d1d","0","6","desktop:/guoda.txt","0","2","desktop:/conversations.json","0","10","desktop:/18iUOBji.jpg","0","7","desktop:/2026-08-18_22-21.png","0","6","desktop:/english_semicolon.csv","0","6","desktop:/JiYD0xM4.mp4","0","10","desktop:/2026-07-29_17-32.png","0","9","desktop:/english_clean.csv","0","6","desktop:/system_summary_hp-omen_2026-07-16.txt","0","5","desktop:/english_dedup.tsv","0","6","desktop:/Powers-of-2-Chart-2286387097.jpg","0","5","desktop:/english.tsv.tmp.9548.96b24559f541","0","6","desktop:/english.tsv","0","4","desktop:/mikrotik.txt","0","7","desktop:/2026-08-19_16-46.png","0","7","desktop:/1.png","0","6","desktop:/truenas-25.04.2.6-20260820133625.tar","0","8","desktop:/2.png","0","7","desktop:/FLgbs0bI.mp4","0","11","desktop:/m2-res_1920p (1).mp4","0","5","desktop:/english.tsv.tmp.9548.3091a7c6fb8e","0","6","desktop:/3.3.txt","0","1","desktop:/89.txt","0","0","desktop:/PyFJkrE-.jpg","0","8","desktop:/ip_camera.txt","0","3","desktop:/rig_docs","0","0","desktop:/j.txt","0","1","desktop:/From Arduino Uno to ESP32-S3.pdf","0","2","desktop:/HEHE.txt","0","7","desktop:/CCNA Cheat Sheet 2026.pdf","0","7","desktop:/2026-07-31_18-48.png","0","5","desktop:/english.tsv.tmp.9548.eda6ed75c933","0","6","desktop:/english.csv","0","5","desktop:/2026-08-20_22-19.png","0","6","desktop:/satelite.txt","0","19","desktop:/Free CCNA Cheat Sheet 2026_ Exam Quick Reference _ OpenExamPrep.pdf","0","7","desktop:/mentoryste-template.txt","0","7","desktop:/subnets.txt","0","7","desktop:/Certs Cheat Sheet","7","3","desktop:/O9PQ56rr.jpg","0","9","desktop:/sysadmin.txt","0","6"],"2048x1152":["1","18"],"2259x1271":["1","20","desktop:/rig_docs","0","0","desktop:/unix.html","0","1","desktop:/2026-04-12_19-52.png","0","2"],"2560x1440":["1","26","desktop:/backup.sh","0","3","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7","desktop:/2026-04-12_19-52.png","0","2","desktop:/satelite.txt","0","19","desktop:/guoda.txt","0","0","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/3.3.txt","0","2","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/89.txt","0","3","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/ip_camera.txt","0","4","desktop:/unix.html","0","1","desktop:/From Arduino Uno to ESP32-S3.pdf","0","5","desktop:/rig_docs","0","0","desktop:/2026-07-31_18-48.png","0","6"],"3072x1728":["1","28","desktop:/2026-04-18_11-52.png","0","1","desktop:/rig_docs","0","0","desktop:/mainframe.txt","0","2"],"3413x1920":["1","31","desktop:/backup.sh","0","3","desktop:/10.4.20.34-ws3-beg04-2026-04-14.tar.gz","0","4","desktop:/10.4.20.31-ws3-beg01-2026-04-14.tar.gz","0","5","desktop:/10.4.20.35-ws3-beg05-2026-04-14.tar.gz","0","6","desktop:/10.4.20.32-ws3-beg02-2026-04-14.tar.gz","0","7","desktop:/10.4.20.33-ws3-beg03-2026-04-14.tar.gz","0","8","desktop:/unix.html","0","1","desktop:/rig_docs","0","0","desktop:/2026-04-12_19-52.png","0","2"],"3840x2160":["1","35","desktop:/rig_docs","0","0","desktop:/2026-04-12_19-52.png","0","2","desktop:/unix.html","0","1"],"960x1707":["1","10","desktop:/rig_docs","0","0","desktop:/guoda.txt","0","2","desktop:/english.tsv","0","5","desktop:/2026-07-29_17-32.png","0","9","desktop:/From Arduino Uno to ESP32-S3.pdf","0","3","desktop:/2.png","0","7","desktop:/2026-08-20_22-19.png","0","6","desktop:/english.tsv.tmp.9548.0bca6fd68d1d","0","6","desktop:/ip_camera.txt","0","4","desktop:/sysadmin.txt","0","6","desktop:/Free CCNA Cheat Sheet 2026_ Exam Quick Reference _ OpenExamPrep.pdf","0","7","desktop:/english.csv","0","5","desktop:/FLgbs0bI.mp4","0","11","desktop:/m2-res_1920p (1).mp4","0","5","desktop:/mikrotik.txt","0","7","desktop:/2026-07-31_18-48.png","0","5","desktop:/j.txt","0","1","desktop:/1.png","0","6","desktop:/HEHE.txt","0","7","desktop:/PyFJkrE-.jpg","0","8","desktop:/JiYD0xM4.mp4","0","10","desktop:/Free Network+ Cheat Sheet 2026_ Exam Quick Reference _ OpenExamPrep.pdf","0","6","desktop:/2026-08-19_16-46.png","0","7","desktop:/O9PQ56rr.jpg","0","9","desktop:/system_summary_hp-omen_2026-07-16.txt","0","5","desktop:/subnets.txt","0","8","desktop:/Powers-of-2-Chart-2286387097.jpg","0","6","desktop:/english_dedup.tsv","0","6","desktop:/english_clean.csv","0","6","desktop:/CCNA Cheat Sheet 2026.pdf","0","7","desktop:/2026-08-18_22-21.png","0","6","desktop:/truenas-25.04.2.6-20260820133625.tar","0","8","desktop:/english_semicolon.csv","0","6","desktop:/3.3.txt","0","1","desktop:/89.txt","0","0","desktop:/Network+ Cheat Sheet 2026.pdf","0","6","desktop:/satelite.txt","0","19","desktop:/english.tsv.tmp.9548.eda6ed75c933","0","6","desktop:/18iUOBji.jpg","0","7","desktop:/english.tsv.tmp.9548.96b24559f541","0","6","desktop:/Certs Cheat Sheet","7","3","desktop:/conversations.json","0","10","desktop:/english.tsv.tmp.9548.3091a7c6fb8e","0","6"],"960x540":["1","10","desktop:/j.txt","0","1","desktop:/1.png","0","6","desktop:/2026-07-29_17-32.png","0","9","desktop:/sysadmin.txt","0","6","desktop:/2026-07-31_18-48.png","0","5","desktop:/89.txt","0","0","desktop:/guoda.txt","0","2","desktop:/m2-res_1920p (1).mp4","0","5","desktop:/ip_camera.txt","0","4","desktop:/2.png","0","7","desktop:/conversations.json","0","10","desktop:/3.3.txt","0","1","desktop:/mikrotik.txt","0","7","desktop:/satelite.txt","0","16","desktop:/rig_docs","0","0","desktop:/From Arduino Uno to ESP32-S3.pdf","0","3","desktop:/system_summary_hp-omen_2026-07-16.txt","0","5"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/andrey/Pictures/wallpaper/5120x2880.png
+Image=file:///home/andrey/Pictures/wallpaper/5120x2880-powers-of-two.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -87,7 +89,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop,applications:code.desktop,applications:emacsclient.desktop,applications:org.kde.kate.desktop,applications:org.mozilla.Thunderbird.desktop,applications:localsend.desktop
+launchers=preferred://filemanager,applications:librewolf.desktop,applications:kitty.desktop,applications:org.kde.kate.desktop,applications:com.microsoft.VSCode.desktop,applications:emacsclient.desktop,applications:org.mozilla.Thunderbird.desktop,applications:localsend.desktop,applications:obsidian.desktop,applications:virt-manager.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -100,7 +102,7 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.systemtray
-popupHeight=436
+popupHeight=494
 popupWidth=435
 wallpaperplugin=org.kde.image
 
@@ -190,6 +192,18 @@ plugin=org.kde.plasma.mediacontroller
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][2][Applets][7][Applets][28]
+immutability=1
+plugin=com.niewulis.tailscale
+
+[Containments][2][Applets][7][Applets][28][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][2][Applets][7][Applets][28][Configuration][General]
+idlePollInterval=300
+sshAddress=ipv4
+
 [Containments][2][Applets][7][Applets][8]
 immutability=1
 plugin=org.kde.kdeconnect
@@ -207,8 +221,8 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][2][Applets][7][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.weather,org.kde.plasma.bluetooth
-knownItems=org.kde.kdeconnect,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.weather,org.kde.plasma.bluetooth
+extraItems=org.kde.kdeconnect,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.weather,org.kde.plasma.bluetooth,com.niewulis.tailscale
+knownItems=org.kde.kdeconnect,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.weather,org.kde.plasma.bluetooth,com.niewulis.tailscale
 
 [Containments][2][General]
 AppletOrder=3;5;6;7;21
@@ -225,11 +239,11 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][25][ConfigDialog]
-DialogHeight=1679
+DialogHeight=1052
 DialogWidth=960
 
 [Containments][25][Wallpaper][org.kde.image][General]
-Image=file:///home/andrey/Pictures/wallpaper/5120x2880.png
+Image=file:///home/andrey/Pictures/wallpaper/5120x2880-powers-of-two.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][26]
@@ -251,4 +265,4 @@ SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/From Arduino Uno to ESP32-S3.pdf,0,,desktop:/guoda.txt,0,,desktop://49.txt,0,,desktop:/3.3.txt,0,,desktop:/english.tsv,0,,desktop:/89.txt,0,,desktop://3.3.txt,0,,desktop:/ip_camera.txt,0,,desktop:/satelite.txt,0,,desktop:/111.txt,0,21644c0e-64fa-4c79-b770-8cfe07d61151,desktop:/Free Network+ Cheat Sheet 2026_ Exam Quick Reference _ OpenExamPrep.pdf,0,
+screenMapping=desktop:/ip_camera.txt,0,,desktop:/111.txt,0,21644c0e-64fa-4c79-b770-8cfe07d61151,desktop://49.txt,0,,desktop:/english.tsv,0,,desktop:/satelite.txt,0,,desktop://3.3.txt,0,,desktop:/3.3.txt,0,,desktop:/Powers-of-2-Chart-2286387097.jpg,0,,desktop:/89.txt,0,,desktop:/From Arduino Uno to ESP32-S3.pdf,0,

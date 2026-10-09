@@ -130,10 +130,10 @@ alias n='nvim'
 alias sl='sl -le'
 # alias docker='podman'
 alias :q=exit
-alias yay='yay --sudo doas'
-alias sudo='doas'
-alias find='fd'
-alias grep='rg'
+# alias yay='yay --sudo doas'
+# alias sudo='doas'
+# alias find='fd'
+# alias grep='rg'
 # alias cat='bat'
 
 alias dcd='docker compose down'
@@ -146,6 +146,8 @@ export PATH=$PATH:~/.config/emacs/bin
 export PATH=$PATH:~/go/bin
 export PATH=$HOME/.npm-global/bin:$PATH
 export EDITOR='nvim'
+export SOPS_AGE_KEY_FILE=~/.age/hp-omen.txt
+export SOPS_EDITOR="kate --block"
 
 # bind "set completion-ignore-case on"
 

@@ -3,26 +3,26 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=false
+ShowSidebar=true
 
 [Recent Files]
-File1[$e]=mtp:/A12 пользователя Natalja/Память устройства/2024_5d_darbo_laiko_kalendorius_A4_231207_101732.pdf
-File10[$e]=$HOME/Tmp/2026-05-26_andrius-kraujas.pdf
-File2[$e]=mtp:/A12 пользователя Natalja/Память устройства/attbEtUG3-HZCHPYmkHp55KqJSwFy1VaAJBNFLLT_jJJ30_240813_151135.pdf
-File3[$e]=mtp:/A12 пользователя Natalja/Память устройства/Инвойсы покупок 05-2023/Invoices 05-2023/Autopartner/öá¬ÔÒÓá_FU72_23_075167.pdf
-File4[$e]=$HOME/Documents/Books/Rich-dad-poor-dad.pdf
-File5[$e]=$HOME/Documents/Books/The Design and Implementation of the FreeBSD Operating System (2nd Edition).pdf
-File6[$e]=$HOME/Tmp/LS26_Andrius Kolenda.pdf
-File7[$e]=$HOME/Tmp/bakalauras2025____Kursinis_forensics__Final___Copy___-1.pdf
-File8[$e]=/mnt/Media/Memories/Ambermist_2025/AM_Files/AMBER-MIST-2025-HandBook-1.6.pdf
-File9[$e]=$HOME/Tmp/IT gynimų sąr. 2026 pav.pdf
-Name1[$e]=2024_5d_darbo_laiko_kalendorius_A4_231207_101732.pdf
-Name10[$e]=2026-05-26_andrius-kraujas.pdf
-Name2[$e]=attbEtUG3-HZCHPYmkHp55KqJSwFy1VaAJBNFLLT_jJJ30_240813_151135.pdf
-Name3[$e]=öá¬ÔÒÓá_FU72_23_075167.pdf
-Name4[$e]=Rich-dad-poor-dad.pdf
-Name5[$e]=The Design and Implementation of the FreeBSD Operating System (2nd Edition).pdf
-Name6[$e]=LS26_Andrius Kolenda.pdf
-Name7[$e]=bakalauras2025____Kursinis_forensics__Final___Copy___-1.pdf
-Name8[$e]=AMBER-MIST-2025-HandBook-1.6.pdf
-Name9[$e]=IT gynimų sąr. 2026 pav.pdf
+File1[$e]=$HOME/vu/cyberlab/microagents/semester-project-document/my-document/src/arxiv_works/Attention Is All You Need.pdf
+File10[$e]=$HOME/vu/kursinis/air-gapped/PDFs/2-core-unidirectional-diodes/Unidirectional Communications in Secure IoT Systems.pdf
+File2[$e]=$HOME/vu/kursinis/air-gapped/PDFs/Unidirectional Communications in Secure IoT Systems.pdf
+File3[$e]=$HOME/vu/kursinis/air-gapped/PDFs/A_Study_on_Air-Gap_Networks.pdf
+File4[$e]=$HOME/vu/kursinis/air-gapped/PDFs/a-quic-enabled-transport-layer-for-the-internet-of-things-challenges-and-solutions.pdf
+File5[$e]=$HOME/vu/kursinis/air-gapped/PDFs/Acknowledgment Mechanisms for Reliable File Transfer Over Highly Asymmetric Deep-Space Channels.pdf
+File6[$e]=$HOME/vu/kursinis/air-gapped/PDFs/1-core-asymmetric-space/QUIC-Space: adaptive FEC-enhanced QUIC for reliable deep space communication.pdf
+File7[$e]=$HOME/vu/kursinis/air-gapped/PDFs/1-core-asymmetric-space/a-quic-enabled-transport-layer-for-the-internet-of-things-challenges-and-solutions.pdf
+File8[$e]=$HOME/vu/kursinis/air-gapped/PDFs/1-core-asymmetric-space/Acknowledgment Mechanisms for Reliable File Transfer Over Highly Asymmetric Deep-Space Channels.pdf
+File9[$e]=$HOME/vu/kursinis/air-gapped/PDFs/1-core-asymmetric-space/Bundle Protocol for Data Delivery over Highly Asymmetric Deep-Space Channels.pdf
+Name1[$e]=Attention Is All You Need.pdf
+Name10[$e]=Unidirectional Communications in Secure IoT Systems.pdf
+Name2[$e]=Unidirectional Communications in Secure IoT Systems.pdf
+Name3[$e]=A_Study_on_Air-Gap_Networks.pdf
+Name4[$e]=a-quic-enabled-transport-layer-for-the-internet-of-things-challenges-and-solutions.pdf
+Name5[$e]=Acknowledgment Mechanisms for Reliable File Transfer Over Highly Asymmetric Deep-Space Channels.pdf
+Name6[$e]=QUIC-Space: adaptive FEC-enhanced QUIC for reliable deep space communication.pdf
+Name7[$e]=a-quic-enabled-transport-layer-for-the-internet-of-things-challenges-and-solutions.pdf
+Name8[$e]=Acknowledgment Mechanisms for Reliable File Transfer Over Highly Asymmetric Deep-Space Channels.pdf
+Name9[$e]=Bundle Protocol for Data Delivery over Highly Asymmetric Deep-Space Channels.pdf

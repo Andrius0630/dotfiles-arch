@@ -6,26 +6,26 @@ SideBarPage=operations
 MenuBar=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/Telegram Desktop/6_DataStr_Recursion.pdf
-File10[$e]=$HOME/Tmp/chaining_branching_architecture.svg
-File2[$e]=$HOME/Downloads/Telegram Desktop/7_DataStr_AVLTree.pdf
-File3[$e]=$HOME/Downloads/Telegram Desktop/8_DataStr_SplayTree.pdf
-File4[$e]=$HOME/Downloads/Telegram Desktop/8_RedBlackTree.pdf
-File5[$e]=$HOME/Downloads/Telegram Desktop/9_DataStr_BTree.pdf
-File6[$e]=$HOME/Downloads/Telegram Desktop/10_DataStr_Trie.pdf
-File7[$e]=$HOME/Downloads/Telegram Desktop/11_DataStr_Graph.pdf
-File8[$e]=$HOME/Desktop/2026-07-31_18-48.png
-File9[$e]=$HOME/Desktop/2026-08-20_22-19.png
-Name1[$e]=6_DataStr_Recursion.pdf
-Name10[$e]=chaining_branching_architecture.svg
-Name2[$e]=7_DataStr_AVLTree.pdf
-Name3[$e]=8_DataStr_SplayTree.pdf
-Name4[$e]=8_RedBlackTree.pdf
-Name5[$e]=9_DataStr_BTree.pdf
-Name6[$e]=10_DataStr_Trie.pdf
-Name7[$e]=11_DataStr_Graph.pdf
-Name8[$e]=2026-07-31_18-48.png
-Name9[$e]=2026-08-20_22-19.png
+File1[$e]=$HOME/Downloads/Telegram Desktop/8_DataStr_SplayTree.pdf
+File10[$e]=$HOME/Pictures/Screenshot_20260826_112900.png
+File2[$e]=$HOME/Downloads/Telegram Desktop/8_RedBlackTree.pdf
+File3[$e]=$HOME/Downloads/Telegram Desktop/9_DataStr_BTree.pdf
+File4[$e]=$HOME/Downloads/Telegram Desktop/10_DataStr_Trie.pdf
+File5[$e]=$HOME/Downloads/Telegram Desktop/11_DataStr_Graph.pdf
+File6[$e]=$HOME/Desktop/2026-07-31_18-48.png
+File7[$e]=$HOME/Desktop/2026-08-20_22-19.png
+File8[$e]=$HOME/Tmp/chaining_branching_architecture.svg
+File9[$e]=$HOME/Pictures/Screenshot_20260825_204931.png
+Name1[$e]=8_DataStr_SplayTree.pdf
+Name10[$e]=Screenshot_20260826_112900.png
+Name2[$e]=8_RedBlackTree.pdf
+Name3[$e]=9_DataStr_BTree.pdf
+Name4[$e]=10_DataStr_Trie.pdf
+Name5[$e]=11_DataStr_Graph.pdf
+Name6[$e]=2026-07-31_18-48.png
+Name7[$e]=2026-08-20_22-19.png
+Name8[$e]=chaining_branching_architecture.svg
+Name9[$e]=Screenshot_20260825_204931.png
 
 [SideBar]
 InformationSplitterSizes=220,255

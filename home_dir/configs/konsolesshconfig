@@ -1,6 +1,16 @@
 [Global plugin config]
 manageProfile=false
 
+[SSH Config][blue-mgmt]
+hostname=10.0.10.2
+identifier=blue-mgmt
+importedFromSshConfig=true
+port=2222
+profileName=Built-in
+sshkey=
+useSshConfig=true
+username=root
+
 [SSH Config][hetzner]
 hostname=88.198.205.109
 identifier=hetzner
@@ -20,6 +30,26 @@ profileName=
 sshkey=
 useSshConfig=true
 username=admin
+
+[SSH Config][proxmox]
+hostname=10.0.10.252
+identifier=proxmox
+importedFromSshConfig=true
+port=20630
+profileName=Built-in
+sshkey=
+useSshConfig=true
+username=root
+
+[SSH Config][red-mgmt]
+hostname=10.0.10.3
+identifier=red-mgmt
+importedFromSshConfig=true
+port=22
+profileName=
+sshkey=
+useSshConfig=true
+username=root
 
 [SSH Config][robotukas]
 hostname=193.219.91.104
