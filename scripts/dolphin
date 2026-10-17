@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Define the root of your search
+SEARCH_DIR="$HOME/Tmp"
+
+# 1. 'fd' provides the blazing fast list of directories
+# 2. 'rofi -dmenu' acts EXACTLY like fzf, but renders as a native GUI
+selected_dir=$(fd --type d --hidden --exclude .git . "$SEARCH_DIR" | rofi -dmenu -i -p "Dolphin > ")
+
+# If a directory was selected, launch Dolphin detached
+if [[ -n "$selected_dir" ]]; then
+    dolphin "$selected_dir" > /dev/null 2>&1 &
+fi
