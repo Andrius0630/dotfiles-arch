@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+ <info>
+  <metadata owner="http://www.kde.org">
+   <kde_places_version>4</kde_places_version>
+   <GroupState-Places-IsHidden>false</GroupState-Places-IsHidden>
+   <GroupState-Remote-IsHidden>false</GroupState-Remote-IsHidden>
+   <GroupState-Devices-IsHidden>false</GroupState-Devices-IsHidden>
+   <GroupState-RemovableDevices-IsHidden>false</GroupState-RemovableDevices-IsHidden>
+   <GroupState-Tags-IsHidden>false</GroupState-Tags-IsHidden>
+   <withRecentlyUsed>true</withRecentlyUsed>
+   <GroupState-RecentlySaved-IsHidden>true</GroupState-RecentlySaved-IsHidden>
+   <withBaloo>true</withBaloo>
+   <GroupState-SearchFor-IsHidden>false</GroupState-SearchFor-IsHidden>
+  </metadata>
+ </info>
+ <bookmark href="file:///home/andrey">
+  <title>Home</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-home"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/0</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Desktop">
+  <title>Desktop</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-desktop"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/1</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Tmp/containers">
+  <title>containers</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1775655093/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Tmp">
+  <title>Tmp</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772628630/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Tmp/containers/provisioning">
+  <title>provisioning</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1790940290/1</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/vu/kursinis/air-gapped">
+  <title>air-gapped</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1790880131/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/vu/ai-security/ajajaj-project">
+  <title>ajajaj-project</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1791061326/2</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Downloads">
+  <title>Downloads</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-downloads"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/3</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/dotfiles-arch">
+  <title>dotfiles-arch</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772628647/1</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/AppImages">
+  <title>AppImages</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772628659/2</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Documents">
+  <title>Documents</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-documents"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/2</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Documents/.obsidian/Personal">
+  <title>Personal</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1787666066/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Documents/Books">
+  <title>Books</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1780677228/1</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Pictures">
+  <title>Pictures</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-pictures"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/7</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Videos">
+  <title>Videos</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-videos"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/8</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Music">
+  <title>Music</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-music"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/6</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///mnt">
+  <title>mnt</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772628699/4</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/vu">
+  <title>vu</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772628687/3</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home/andrey/Documents/Obsidian/Personal/Thoughts">
+  <title>Thoughts</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1784117078/0</ID>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="remote:/">
+  <title>Network</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-network"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/4</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="trash:/">
+  <title>Trash</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="user-trash"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/5</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="recentlyused:/files">
+  <title>Recent Files</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="document-open-recent"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/9</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="recentlyused:/locations">
+  <title>Recent Locations</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-open-recent"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1772619344/10</ID>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d1</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>cce6f9e5-548f-4e1f-b7a6-03bc1b63c883</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>eaa1b043-0b8e-4deb-bf6b-c0a726f49771</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p3</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>8f0011a8-0423-4d11-88e7-caba1d0c96f4</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/sda1</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>d1c3ff86-f14a-4b09-9673-a787dd948bbc</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/dm_2d0</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>68b49c0c-e639-44c4-a480-f1bb73a45535</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/nvme0n1p2</UDI>
+    <isSystemItem>true</isSystemItem>
+    <uuid>87e3c916-3dee-4696-9e4b-02347d367c83</uuid>
+   </metadata>
+  </info>
+ </separator>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/kde/fstab/10.0.10.245:/mnt/main/Andrius:/mnt</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
+</xbel>

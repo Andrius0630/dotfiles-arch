@@ -60,6 +60,24 @@ do
     fi
 done
 
+# local share (~/.local/share) ---------------------------
+
+target_data="${HOME}/.local/share"
+mkdir -p "${target_data}"
+
+echo "Making symlinks in \".local/share\" to the actual data files..."
+for file in "${configuration_path}"/local_share/*
+do
+    if [ -e "$file" ] || [ -L "$file" ]; then
+        file_name="${file##*/}"
+        echo "  ${file_name}"
+
+        rm -r "${target_data:?}"/"${file_name}" 2> /dev/null
+        ln -sf "$file" "${target_data:?}"/
+    fi
+done
+
+
 # wallpapers ---------------------------
 
 wallpaper_folder="wallpaper"
