@@ -28,6 +28,7 @@ embed-image/jpeg=false
 embed-image/png=false
 embed-image/webp=false
 embed-image/x-icns=false
+embed-text/x-shellscript=false
 embed-video/3gp=false
 embed-video/3gpp=false
 embed-video/3gpp2=false

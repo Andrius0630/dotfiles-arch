@@ -1,0 +1,41 @@
+[general]
+import = ["colors-matugen.toml"]
+
+[font]
+# normal = { family = "Roboto Mono" }
+size = 14.0
+
+[window]
+opacity = 0.87
+padding = { x = 22, y = 22 }
+
+[cursor]
+style = { shape = "Beam" }
+
+# [colors.primary]
+# foreground = "#383A42"
+# background = "#FAFAFA"
+#
+# [colors.selection]
+# text       = "#383A42"
+# background = "#BFCEFF"
+#
+# [colors.normal]
+# black   = "#383A42"
+# red     = "#E45649"
+# green   = "#40A14F"
+# yellow  = "#C18401"
+# blue    = "#0184BC"
+# magenta = "#A626A4"
+# cyan    = "#0997B3"
+# white   = "#FAFAFA"
+#
+# [colors.bright]
+# black   = "#383A42"
+# red     = "#E45649"
+# green   = "#40A14F"
+# yellow  = "#C18401"
+# blue    = "#0184BC"
+# magenta = "#A626A4"
+# cyan    = "#0997B3"
+# white   = "#FAFAFA"
