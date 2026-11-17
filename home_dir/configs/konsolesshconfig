@@ -1,6 +1,16 @@
 [Global plugin config]
 manageProfile=false
 
+[SSH Config][blue]
+hostname=192.168.122.176
+identifier=blue
+importedFromSshConfig=true
+port=22
+profileName=
+sshkey=/home/andrey/vu/ai-security/ajajaj-project/keys/ubuntu
+useSshConfig=true
+username=ubuntu
+
 [SSH Config][blue-mgmt]
 hostname=10.0.10.2
 identifier=blue-mgmt

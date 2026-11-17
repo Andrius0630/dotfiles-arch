@@ -1,7 +1,7 @@
 {
     "name": "Untitled",
     "DesktopAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 553648129,
         "name": "Desktop Audio",
         "uuid": "cb5f9161-5fd5-40f4-aaf9-3d68060fb557",
         "id": "pulse_output_capture",
@@ -23,16 +23,19 @@
         "hotkeys": {
             "libobs.mute": [],
             "libobs.unmute": [],
+            "libobs.monitor-on": [],
+            "libobs.monitor-off": [],
             "libobs.push-to-mute": [],
             "libobs.push-to-talk": []
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 553648129,
         "name": "Mic/Aux",
         "uuid": "d6d46daf-3aca-4d7f-806d-6872bcd95f27",
         "id": "pulse_input_capture",
@@ -54,17 +57,20 @@
         "hotkeys": {
             "libobs.mute": [],
             "libobs.unmute": [],
+            "libobs.monitor-on": [],
+            "libobs.monitor-off": [],
             "libobs.push-to-mute": [],
             "libobs.push-to-talk": []
         },
         "deinterlace_mode": 0,
         "deinterlace_field_order": 0,
         "monitoring_type": 0,
+        "monitoring_enabled": false,
         "private_settings": {}
     },
     "sources": [
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "Screen Capture (PipeWire)",
             "uuid": "d418f45d-a8cf-4778-a51e-fd8d535e08dd",
             "id": "pipewire-screen-capture-source",
@@ -87,16 +93,17 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 553648129,
             "name": "Scene",
             "uuid": "a5ec15c4-777b-4ea9-9f0f-3599efd0ffe0",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 7,
+                "id_counter": 8,
                 "custom_size": false,
                 "items": [
                     {
@@ -175,6 +182,7 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
+            "monitoring_enabled": false,
             "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
         }

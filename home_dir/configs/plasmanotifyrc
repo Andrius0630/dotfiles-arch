@@ -20,4 +20,5 @@ Seen=true
 Seen=true
 
 [DoNotDisturb]
+Until=2026,11,16,16,14,0.572
 WhenScreensMirrored=false

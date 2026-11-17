@@ -198,17 +198,6 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///mnt">
-  <title>mnt</title>
-  <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="inode-directory"/>
-   </metadata>
-   <metadata owner="http://www.kde.org">
-    <ID>1772628699/4</ID>
-   </metadata>
-  </info>
- </bookmark>
  <bookmark href="file:///home/andrey/vu">
   <title>vu</title>
   <info>
@@ -220,14 +209,14 @@
    </metadata>
   </info>
  </bookmark>
- <bookmark href="file:///home/andrey/Documents/Obsidian/Personal/Thoughts">
-  <title>Thoughts</title>
+ <bookmark href="file:///mnt">
+  <title>mnt</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name="inode-directory"/>
    </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1784117078/0</ID>
+    <ID>1772628699/4</ID>
    </metadata>
   </info>
  </bookmark>

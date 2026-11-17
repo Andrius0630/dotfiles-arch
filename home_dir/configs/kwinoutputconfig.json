@@ -13,7 +13,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.3,
+                "brightness": 0,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
@@ -108,6 +108,7 @@
                 "wideColorGamut": false
             },
             {
+                "abmLevel": 0,
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
@@ -126,13 +127,26 @@
                 "edidHash": "80b68580472e99d49bf4c5bf40afa369",
                 "edidIdentifier": "DEL 16958 810569557 47 2022 0",
                 "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
-                    "flags": 0,
-                    "height": 1080,
-                    "refreshRate": 60000,
-                    "width": 1920
+                    "cvt": {
+                        "clock": 148500,
+                        "flags": 5,
+                        "hdisplay": 1920,
+                        "hskew": 0,
+                        "hsyncEnd": 2052,
+                        "hsyncStart": 2008,
+                        "htotal": 2200,
+                        "vdisplay": 1080,
+                        "vscan": 0,
+                        "vsyncEnd": 1089,
+                        "vsyncStart": 1084,
+                        "vtotal": 1125
+                    },
+                    "flags": 1
                 },
                 "overscan": 0,
                 "rgbRange": "Automatic",
@@ -479,7 +493,6 @@
                 "hdrIccProfilePath": "",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
-                "maxBitsPerColor": 0,
                 "mode": {
                     "cvt": {
                         "clock": 709100,
@@ -1284,6 +1297,21 @@
                         "priority": 0,
                         "replicationSource": ""
                     },
+                    {
+                        "enabled": true,
+                        "outputIndex": 1,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": true,
+                "outputs": [
                     {
                         "enabled": true,
                         "outputIndex": 1,
